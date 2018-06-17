@@ -10,4 +10,4 @@ Steps
 6. Enter lineup on draftkings, collect profits
 
 Note:
-This program grabs the actual lineups for each game, which are not available until < 3 hours from first pitch. Therefore, do not grab data until lineups are set (here)[https://www.fangraphs.com/livescoreboard.aspx]
+This program grabs the actual lineups for each game, which are not available until < 3 hours from first pitch. Therefore, do not grab data until lineups are set [here](https://www.fangraphs.com/livescoreboard.aspx)
