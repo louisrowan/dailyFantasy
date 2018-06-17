@@ -1,0 +1,30 @@
+steps
+
+
+// fetching data
+
+1. identify days games
+
+2. get 2018 stats for SP
+
+3. get 2018 hitting stats vs L, R and overall, as well as part of the order
+
+4. get 2018 overall team hitting stats -- todo
+
+
+
+// analyzing data
+
+4. rank pitchers to face based on xFIP, etc
+
+5. rank hitters based on spot in lineup, splits vs opposing SP, etc
+
+6. rank pitchers on who to start based on their stats and opposing offense nums
+
+
+
+// extra
+
+7. scraipe draftKings prices
+
+8. algo to create optimal lineup

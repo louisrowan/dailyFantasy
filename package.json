@@ -1,0 +1,25 @@
+{
+  "name": "dailyfantasy",
+  "version": "1.0.0",
+  "description": "Draft Kings daily fantasy baseball lineup optimizer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 index.js",
+    "generate": "node handleAllDataFetched.js",
+    "team": "node handleAllDataFetched.js team"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisrowan/dailyFantasy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louisrowan/dailyFantasy/issues"
+  },
+  "homepage": "https://github.com/louisrowan/dailyFantasy#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "wreck": "^14.0.2"
+  }
+}
