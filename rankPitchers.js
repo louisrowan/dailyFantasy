@@ -19,7 +19,7 @@ exports.rankRaw = (games) => {
             opponent: game.team1.name
         };
 
-        for (let i = 0; i < TeamBattingStats.length; ++i) {
+        for (let i = 0; i < TeamBattingStats.length; ++i) { // calculate multipler based on opposing offense
 
             const team = TeamBattingStats[i];
             if (team.name === team1Pitcher.opponent) {
@@ -37,20 +37,26 @@ exports.rankRaw = (games) => {
 
         pitchers.push(team1Pitcher);
         pitchers.push(team2Pitcher);
-    })
-
-    const sorted = pitchers.sort((a, b) => {
-
-        return a.xFIP > b.xFIP ? 1 : -1;
     });
 
-    sorted.forEach(s => {
+    const sortedPitchers = pitchers.sort((a, b) => a.xFIP > b.xFIP ? 1 : -1);
 
-        console.log(s.name, s.xFIP, s.opponent, s.multiplier.toFixed(3));
-    })
+    console.log(
+        'pitcher'.padEnd(20, ' '),
+        'xFIP'.padEnd(10, ' '),
+        'opponent'.padEnd(10, ' '),
+        'multiplier'.padEnd(5, ' ')
+    );
 
-    return sorted;
+    sortedPitchers.forEach(s => {
+
+        console.log(
+            s.name.padEnd(20, ' '),
+            s.xFIP.padEnd(10, ' '),
+            s.opponent.padEnd(10, ' '),
+            s.multiplier.toFixed(3).padEnd(5, ' ')
+        );
+    });
+
+    return sortedPitchers;
 };
-
-
-

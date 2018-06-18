@@ -15,11 +15,11 @@ Upstream.get = (url, options, cb, retries = 0) => {
                 return cb(new Error(`too many retries for ${url}`));
             }
             ++retries;
-            return Upstream.get(url, options, cb, retries)
+            return Upstream.get(url, options, cb, retries);
         }
 
         cb(err, res, payload);
-    })
-}
+    });
+};
 
 module.exports = Upstream;

@@ -1,6 +1,6 @@
 'use strict';
 
-const { DATE } = require('./constants');
+const { DATE, MIN_AB } = require('./constants');
 
 const Fs = require('fs');
 const Path = require('path');
@@ -106,13 +106,33 @@ const filterPositions = (players, buffer) => {
 }
 
 
+const printByPosition = (players, position) => {
+
+    console.log()
+    console.log(
+        position.padEnd(20, ' '),
+        'points'.padEnd(10, ' '),
+        'salary'.padEnd(10, ' '),
+        'ppk'.padEnd(10, ' ')
+    )
+    players.forEach(p => {
+
+        console.log(
+            p.name.padEnd(20, ' '),
+            p.totalPoints.toFixed(2).padEnd(10, ' '),
+            p.salary.toString().padEnd(10, ' '),
+            (1000 * p.totalPoints/p.salary).toFixed(2).padEnd(5, ' ')
+        );
+    });
+};
+
 
 const generate = exports.generate = (battersWithSalaries, pitchersWithSalaries, defaultLineup = {}) => {
 
     const sorted = battersWithSalaries.sort((a, b) => {
 
         return a.pointsPerK > b.pointsPerK ? -1 : 1;
-    }).filter(b => b.total.AB > 80);
+    }).filter(b => b.total.AB > MIN_AB);
     
     const catchers = filterPositions(sorted.filter(p => p.position === 'C'), 0);
     const firstBasemen = filterPositions(sorted.filter(p => p.position === '1B'), 0);
@@ -121,6 +141,14 @@ const generate = exports.generate = (battersWithSalaries, pitchersWithSalaries, 
     const shortStops = filterPositions(sorted.filter(p => p.position === 'SS'), 0);
     const outfielders = filterPositions(sorted.filter(p => p.position === 'OF'), 2);
     const pitchers = filterPositions(pitchersWithSalaries, 1);
+
+    printByPosition(catchers, 'C');
+    printByPosition(firstBasemen, '1B');
+    printByPosition(secondBasemen, '2B');
+    printByPosition(thirdBasemen, '3B');
+    printByPosition(shortStops, 'SS');
+    printByPosition(outfielders, 'OF');
+    printByPosition(pitchers, 'P');
 
     const start = Date.now();
     let perms = 0;
@@ -274,7 +302,7 @@ exports.generateTeamStack = (battersWithSalaries, pitchersWithSalaries) => {
         if (!pitchers[opponent]) {
             pitchers[opponent] = []
         }
-        b.total.AB > 80 ? pitchers[opponent].push(b) : '';
+        b.total.AB > MIN_AB ? pitchers[opponent].push(b) : '';
     });
 
     let highestOverall = 0;

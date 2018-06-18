@@ -4,19 +4,18 @@ const Cheerio = require('cheerio');
 const Fs = require('fs');
 const Path = require('path');
 
+const { DOMAIN } = require('./constants')
 const Common = require('./common');
 const Upstream = require('./upstream');
 
-const domain = 'https://www.fangraphs.com';
 const PATH_TO_FILE = Path.resolve(__dirname, './fixtures/teamBattingStats.json');
 
 
-
-const getTeamBattingStats = () => {
+const getTeamBattingStats = () => { // fetch fangraphs team batting stats file
 
     return new Promise((resolve, reject) => {
 
-        const url = domain + '/leaders.aspx?pos=all&stats=bat&lg=all&qual=0&type=8&season=2018&month=0&season1=2018&ind=0&team=0,ts&rost=&age=&filter=&players=0';
+        const url = DOMAIN + '/leaders.aspx?pos=all&stats=bat&lg=all&qual=0&type=8&season=2018&month=0&season1=2018&ind=0&team=0,ts&rost=&age=&filter=&players=0';
 
         Upstream.get(url, {}, (err, res, payload) => {
 
@@ -31,16 +30,15 @@ const getTeamBattingStats = () => {
 };
 
 
-
-const findTeamBattingStatRow = (id, $) => {
+const findTeamBattingStatRow = (id, $) => { // get team row from html
 
     const teamTable = $(`#${id}`);
     const rows = teamTable.children('tbody').children('tr');
     return rows;
-}
+};
 
 
-const formatTeamRows = (rows, headers) => {
+const formatTeamRows = (rows, headers) => { // format team row from html to JS object
 
     const teams = [];
 
@@ -70,10 +68,10 @@ const formatTeamRows = (rows, headers) => {
         teams.push(team);
     });
     return teams;
-}
+};
 
 
-const calculateLeagueAverages = (formattedTeamBattingStats) => {
+const calculateLeagueAverages = (formattedTeamBattingStats) => { // league averages for team batting stats
 
     let runs = 0;
     let pa = 0;
@@ -93,10 +91,10 @@ const calculateLeagueAverages = (formattedTeamBattingStats) => {
         averageRuns,
         averageWOBA
     };
-}
+};
 
 
-const calculateTeamMultipliers = (leageAverages, formattedTeamBattingStats) => {
+const calculateTeamMultipliers = (leageAverages, formattedTeamBattingStats) => { // calculate individual team batting total diff from league average
 
     const { averageRuns, averageWOBA } = leageAverages;
 
@@ -114,10 +112,10 @@ const calculateTeamMultipliers = (leageAverages, formattedTeamBattingStats) => {
         });
     });
     return teams;
-}
+};
 
 
-const formatTeamBattingStats = (html) => {
+const formatTeamBattingStats = (html) => { // flow control for process of converting raw html to formatted team batting stats
 
     return new Promise((resolve, reject) => {
 
@@ -135,7 +133,6 @@ const formatTeamBattingStats = (html) => {
 };
 
 
-
 getTeamBattingStats()
     .then(res => {
 
@@ -144,8 +141,9 @@ getTeamBattingStats()
     .then(res => {
 
         Fs.writeFileSync(PATH_TO_FILE, JSON.stringify(res, null, 2));
+        console.log('Wrote team batting stats to', PATH_TO_FILE)
     })
     .catch(err => {
 
-        console.log('err in get team batting stats promise', err);
+        console.log('error in updating team batting stats', err);
     });
