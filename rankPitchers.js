@@ -3,11 +3,11 @@
 const TeamBattingStats = require('./fixtures/teamBattingStats.json');
 
 
-exports.rankRaw = (games) => {
+exports.rankRaw = games => {
 
     let pitchers = [];
 
-    games.forEach((game) => {
+    games.forEach(game => {
 
         const team1Pitcher = {
             ...game.team1.stats.pitcher,

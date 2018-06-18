@@ -2,14 +2,12 @@
 
 const Cheerio = require('cheerio');
 
+const { DOMAIN } = require('./constants');
 const Common = require('./common');
 const Upstream = require('./upstream');
 
-const domain = 'https://www.fangraphs.com';
 
-
-
-const findStatRowYear = (id, $) => {
+const findStatRowYear = (id, $) => { // find 2018 MLB statline
 
     const statRows = $(`#${id} tr`);
     let currentYear;
@@ -34,8 +32,7 @@ const findStatRowYear = (id, $) => {
 };
 
 
-
-const findStatRowSplit = (id, $, handedness) => {
+const findStatRowSplit = (id, $, handedness) => { // find 2018 MLB statline per hand split
 
     const statRows = $(`#${id} tr`);
     let currentSplit;
@@ -54,10 +51,10 @@ const findStatRowSplit = (id, $, handedness) => {
     });
 
     return currentSplit || {};
-}
+};
 
 
-const pushYearTDsIntoRow = (yearTR) => {
+const pushYearTDsIntoRow = yearTR => { // grab relevant TDs from TR
 
     let playerStats = [];
     let i = 0;
@@ -80,10 +77,10 @@ const pushYearTDsIntoRow = (yearTR) => {
     }
 
     return playerStats;
-}
+};
 
 
-const mapStatsToHeaders = (statArray, headers) => {
+const mapStatsToHeaders = (statArray, headers) => { // sync up stats with proper header stat value
 
     const player = {};
 
@@ -103,10 +100,10 @@ const mapStatsToHeaders = (statArray, headers) => {
     });
 
     return player;
-}
+};
 
 
-const getPitcherHandedness = ($) => {
+const getPitcherHandedness = ($) => { // get handedness of pitcher
 
     const playerInfoDivs = $('.player-info-box-item, div');
     playerInfoDivs.each((_, element) => {
@@ -123,16 +120,12 @@ const getPitcherHandedness = ($) => {
     });
 
     return 'R'; // default to righty
-}
+};
 
 
+exports.getPitcherData = (pitcher, cb) => { // flow control for fetching and formatting pitcher stats
 
-
-
-
-exports.getPitcherData = (pitcher, cb) => {
-
-    const url = domain + '/' + pitcher.href;
+    const url = DOMAIN + '/' + pitcher.href;
 
     Upstream.get(url, {}, (err, res, payload) => {
 
@@ -161,14 +154,11 @@ exports.getPitcherData = (pitcher, cb) => {
 };
 
 
-
-
-
-exports.getLineupData = (lineup, cb) => {
+exports.getLineupData = (lineup, cb) => { // flow control for fetching and formatting entire lineup stats
 
     const promises = [];
 
-    Object.keys(lineup).forEach((index) => {
+    Object.keys(lineup).forEach(index => {
 
         const batter = lineup[index];
         const batterPromise = getBatterData(batter);
@@ -176,18 +166,12 @@ exports.getLineupData = (lineup, cb) => {
     });
 
     Promise.all(promises)
-        .then((res) => {
-
-            return cb(null, res);
-        })
-        .catch(err => {
-
-            return cb(err);
-        });
+        .then(res => cb(null, res))
+        .catch(err => cb(err));
 };
 
 
-const getBatterData = (batter) => {
+const getBatterData = batter => { // flow control for fetching and formatting individual batter stats
 
     return new Promise((resolve, reject) => {
 
@@ -196,7 +180,7 @@ const getBatterData = (batter) => {
         const requests = [splitRequest, totalRequest];
 
         Promise.all(requests)
-            .then((responses) => {
+            .then(responses => {
 
                 const [splitHtml, totalHtml] = responses;
 
@@ -216,19 +200,19 @@ const getBatterData = (batter) => {
             })
             .catch(err => {
 
-                console.log('error getting batting data', err);
+                console.log('error getting batting data for individual player', batter.name, err);
                 return resolve();
-            })
+            });
     });
-}
+};
 
 
-const getBattingStats = (batter, splits) => {
+const getBattingStats = (batter, splits) => { // http request for fetching batting stats
 
     return new Promise((resolve, reject) => {
 
         const href = splits ? batter.href.replace('statss', 'statsplits') + '&season=2018' : batter.href;
-        const url = domain + '/' + href;
+        const url = DOMAIN + '/' + href;
 
         Upstream.get(url, {}, (err, res, payload) => {
 
@@ -253,7 +237,7 @@ const getBattingStats = (batter, splits) => {
 };
 
 
-const formatSplitBattingStats = ($) => {
+const formatSplitBattingStats = ($) => { // flow control for formatting batting splits
 
     const standardTableId = 'SeasonSplits1_dgSeason1_ctl00';
     const advancedTableId = 'SeasonSplits1_dgSeason2_ctl00';
@@ -285,7 +269,7 @@ const formatSplitBattingStats = ($) => {
 };
 
 
-const formatTotalBattingStats = ($) => {
+const formatTotalBattingStats = ($) => { // flow control for formatting total batting stats
 
     const standardTableId = 'SeasonStats1_dgSeason1_ctl00';
     const advancedTableId = 'SeasonStats1_dgSeason2_ctl00';
@@ -305,9 +289,4 @@ const formatTotalBattingStats = ($) => {
     };
 
     return stats;
-}
-
-
-
-
-
+};

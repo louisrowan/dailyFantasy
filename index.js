@@ -2,7 +2,6 @@
 
 // node --max-old-space-size=8192 index.js 
 
-
 const { DATE, PATH_TO_FILE, DOMAIN } = require('./constants');
 
 const Fs = require('fs');
@@ -13,7 +12,7 @@ const GetPlayerData = require('./getPlayerData');
 const Upstream = require('./Upstream');
 
 
-const getAllGames = () => { // get html
+const getAllGames = () => { // get html for all games
 
     return new Promise((resolve, reject) => {
 
@@ -54,14 +53,14 @@ const getAllGames = () => { // get html
 };
 
 
-const parseAllGames = (games) => { // split game html into teams
+const parseAllGames = games => { // split game html into individual teams
 
     return new Promise(resolve => {
 
         const completedGames = [];
         let numGames = games.length;
 
-        games.forEach((game) => {
+        games.forEach(game => {
 
             const team1Name = game.team1Name;
             const team2Name = game.team2Name;
@@ -104,9 +103,10 @@ const parseAllGames = (games) => { // split game html into teams
             })
         });
     });
-}
+};
 
-const getOneGame = (team1Rows, team2Rows) => { // get player data
+
+const getOneGame = (team1Rows, team2Rows) => { // flow control for getting each game's worth of data
 
     return new Promise((resolve, reject) => {
 
@@ -144,21 +144,20 @@ const getOneGame = (team1Rows, team2Rows) => { // get player data
             }
         })
     })
-}
+};
 
 
-const writeGamesToFile = (completedGames) => { // write formatted games to file
+const writeGamesToFile = completedGames => { // write formatted games to file
 
     Fs.writeFileSync(
         Path.resolve(__dirname, PATH_TO_FILE),
         JSON.stringify(completedGames, null, 2)
     );
-    console.log('wrote', completedGames.length, 'games to file', PATH_TO_FILE)
+    console.log('wrote', completedGames.length, 'games to file', PATH_TO_FILE);
 };
 
 
-
-const formatTeams = (rows, cb) => { // split up pitcher and lineup
+const formatTeams = (rows, cb) => { // split up pitcher and lineup from html and format into JS objects
 
     const team = {};
 
@@ -219,7 +218,7 @@ const formatTeams = (rows, cb) => { // split up pitcher and lineup
 
         return cb(err, result);
     });
-}
+};
 
 
 const getIndividualPlayerStats = (team, cb) => { // get pitcher and lineup data
@@ -230,7 +229,7 @@ const getIndividualPlayerStats = (team, cb) => { // get pitcher and lineup data
     if (team.pitcher) {
         GetPlayerData.getPitcherData(team.pitcher, (err, result) => {
 
-            if (err) {
+            if (err) { // error here could mean new pitcher and broken link, in which case do not reject promise
                 results.pitcher = { name: team.pitcher.name }; 
             }
             else {
@@ -243,7 +242,7 @@ const getIndividualPlayerStats = (team, cb) => { // get pitcher and lineup data
             }
         });
     }
-    else {
+    else { // skip game if no pitcher available yet
         ++promisesComplete;
         if (promisesComplete === 2) {
             return cb(null, results);
@@ -265,21 +264,15 @@ const getIndividualPlayerStats = (team, cb) => { // get pitcher and lineup data
             }
         });
     }
-    else {
+    else { // skip game if no lineup available yet
         ++promisesComplete;
         if (promisesComplete === 2) {
             return cb(null, results);
         }
     }
+};
 
-}
 
 getAllGames()
-    .then(games => {
-
-        return parseAllGames(games)
-    })
-    .catch(err => {
-
-        console.log('get all games error', err);
-    });
+    .then(games => parseAllGames(games))
+    .catch(err => console.log('get all games error in index.js', err));

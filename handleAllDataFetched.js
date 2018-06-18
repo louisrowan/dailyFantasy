@@ -7,7 +7,7 @@ const RankPitchers = require('./rankPitchers');
 const RankBatters = require('./rankBatters');
 
 
-const handleAllDataFetched = (games) => { // print stuff to screen and generate lineups
+const handleAllDataFetched = games => { // print stuff to screen and generate lineups
 
     return new Promise(resolve => {
 

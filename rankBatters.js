@@ -3,17 +3,17 @@
 const { MIN_IP } = require('./constants');
 
 
-const isOF = (batter) => batter.position.includes('LF') || batter.position.includes('CF') || batter.position.includes('RF');
+const isOF = batter => batter.position.includes('LF') || batter.position.includes('CF') || batter.position.includes('RF');
 
 
-exports.rankRaw = (games) => {
+exports.rankRaw = games => {
 
     let allBatters = [];
 
-    games.forEach((game) => {
+    games.forEach(game => {
 
         const gameBatters = [];
-        game.team1.stats.lineup.forEach((batter) => {
+        game.team1.stats.lineup.forEach(batter => {
 
             if (batter) {
                 gameBatters.push({
@@ -24,7 +24,7 @@ exports.rankRaw = (games) => {
             }
         });
 
-        game.team2.stats.lineup.forEach((batter) => {
+        game.team2.stats.lineup.forEach(batter => {
 
             if (batter) {   
                 gameBatters.push({
@@ -37,8 +37,7 @@ exports.rankRaw = (games) => {
         allBatters = allBatters.concat(gameBatters);
     });
 
-    const sortedBatters = allBatters.sort((a, b) => rawGamePrediction(a) > rawGamePrediction(b) ? -1 : 1);
-    return sortedBatters;
+    return allBatters.sort((a, b) => rawGamePrediction(a) > rawGamePrediction(b) ? -1 : 1);
 };
 
 
@@ -73,7 +72,7 @@ const calculateDraftKingsTotalPerStat = ({ // calculate raw stats vs starter, re
 };
 
 
-const rawGamePrediction = (batter) => { // draft kings projected total based on aggregate of all raw stat totals and DK point system
+const rawGamePrediction = batter => { // draft kings projected total based on aggregate of all raw stat totals and DK point system
 
     const paVsStarter = 2 + (1 - (batter.spotInOrder/10));
     const paVsReliever = 2;
@@ -97,7 +96,7 @@ const rawGamePrediction = (batter) => { // draft kings projected total based on 
 };
 
 
-const calculatePitcherMultiplier = (pitcher) => { // opposing pitcher multiplier, .75 for elite pitcher and 1.25 for bad/inex pitchers
+const calculatePitcherMultiplier = pitcher => { // opposing pitcher multiplier, .75 for elite pitcher and 1.25 for bad/inex pitchers
 
     if (!pitcher.IP || +pitcher.IP < MIN_IP) {
         return 1.25;
@@ -120,7 +119,7 @@ const calculateStatRaw = (batter, stat, hand, pitcherMultiplier = 1) => { // cal
 }
 
 
-const selectStatSplit = (hand) => { // determine which stat split to use based on opposing pitcher hand
+const selectStatSplit = hand => { // determine which stat split to use based on opposing pitcher hand
 
     if (hand === 'L') {
         return 'vsLeft';

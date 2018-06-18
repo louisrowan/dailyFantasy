@@ -1,6 +1,10 @@
 'use strict';
 
-const { DATE, MIN_AB } = require('./constants');
+const {
+    DATE,
+    MAX_SALARY,
+    MIN_AB
+} = require('./constants');
 
 const Fs = require('fs');
 const Path = require('path');
@@ -23,41 +27,50 @@ const readSalaries = () => { // read in exported DK CSV with player names and sa
         player.averagePoints = +s[8];
 
         return player;
-    });
-}
+    }).filter(sal => !!sal.name); // filter out any malformed rows like the last one
+};
 
 
-exports.battersWithSalaries = (batters) => { // format DK salaries onto batters
+const sanitizeName = name => {
 
-    const battersWithSalaries = batters.map((b) => {
+    if (!name) {
+        return null;
+    }
+
+    return name.toLowerCase().replace(/\./g, ''); // attempt to sync up names
+};
+
+
+exports.battersWithSalaries = batters => { // format DK salaries onto batters
+
+    return batters.map(b => {
 
         const allSalaries = readSalaries();
-
-        const salary = allSalaries.find(s => s.name === b.name);
+        const salary = allSalaries.find(s => sanitizeName(s.name) === sanitizeName(b.name));
 
         if (!salary) {
+            console.log('***** no salary found for', b.name, '*****')
             return;
         };
 
         return {
             ...b,
             ...salary
-        }
+        };
     }).filter(mapped => mapped !== undefined);
-
-    return battersWithSalaries;
 };
 
 
-exports.pitchersWithSalaries = (pitchers) => { // format DK salaries onto pitchers
+exports.pitchersWithSalaries = pitchers => { // format DK salaries onto pitchers
 
-    const pitchersWithSalaries = pitchers.map((p) => {
+    return pitchers.map(p => {
 
         const allSalaries = readSalaries();
 
-        const salary = allSalaries.find(s => s.name === p.name);
+        const salary = allSalaries.find(s => sanitizeName(s.name) === sanitizeName(p.name));
 
         if (!salary) {
+            console.log('***** no salary found for', p.name, '*****')
             return;
         };
 
@@ -65,14 +78,10 @@ exports.pitchersWithSalaries = (pitchers) => { // format DK salaries onto pitche
             ...p,
             ...salary,
             totalPoints: salary.averagePoints * p.multiplier // multiplier comes from offense pitcher is facing
-        }
+        };
     }).filter(mapped => mapped !== undefined);
-
-    return pitchersWithSalaries;
 };
 
-
-const MAX_SALARY = 50000;
 
 // filter out players with higher sal and lower projected points than others at same position
 // for example if player A plays 2B and has 10 projected points and a salary of 5000
@@ -87,7 +96,6 @@ const filterPositions = (players, buffer) => {
         for (let i = 0; i < players.length; ++i) {
 
             const player = players[i];
-
             if (p.name === player.name) {
                 continue;
             }
@@ -98,30 +106,37 @@ const filterPositions = (players, buffer) => {
         }
 
         if (betterPlayers > buffer) {
-            // console.log('filter out', p.name, p.position);
             return false;
         }
         return true;
     });
-}
+};
+
+
+const calculatePpk = (points, salary) => (1000 * points/salary);
 
 
 const printByPosition = (players, position) => {
 
-    console.log()
+    const isBatter = position !== 'P';
+
+    console.log();
     console.log(
         position.padEnd(20, ' '),
         'points'.padEnd(10, ' '),
         'salary'.padEnd(10, ' '),
-        'ppk'.padEnd(10, ' ')
-    )
+        'ppk'.padEnd(10, ' '),
+        isBatter ? 'AB'.padEnd(10, ' ') : ''
+    );
+
     players.forEach(p => {
 
         console.log(
             p.name.padEnd(20, ' '),
             p.totalPoints.toFixed(2).padEnd(10, ' '),
             p.salary.toString().padEnd(10, ' '),
-            (1000 * p.totalPoints/p.salary).toFixed(2).padEnd(5, ' ')
+            calculatePpk(p.totalPoints, p.salary).toFixed(2).padEnd(10, ' '), // projected points per 1000 in salary
+            isBatter ? p.total.AB.toString(10, ' ') : ''
         );
     });
 };
@@ -129,17 +144,17 @@ const printByPosition = (players, position) => {
 
 const generate = exports.generate = (battersWithSalaries, pitchersWithSalaries, defaultLineup = {}) => {
 
-    const sorted = battersWithSalaries.sort((a, b) => {
+    const sortedBatters = battersWithSalaries.sort((a, b) => { //  sorting for printing purposes
 
-        return a.pointsPerK > b.pointsPerK ? -1 : 1;
-    }).filter(b => b.total.AB > MIN_AB);
+        return calculatePpk(a.totalPoints, a.salary) > calculatePpk(b.totalPoints, b.salary) ? -1 : 1;
+    }).filter(b => b.total.AB > MIN_AB); // filter out players below min AB
     
-    const catchers = filterPositions(sorted.filter(p => p.position === 'C'), 0);
-    const firstBasemen = filterPositions(sorted.filter(p => p.position === '1B'), 0);
-    const secondBasemen = filterPositions(sorted.filter(p => p.position === '2B'), 0);
-    const thirdBasemen = filterPositions(sorted.filter(p => p.position === '3B'), 0);
-    const shortStops = filterPositions(sorted.filter(p => p.position === 'SS'), 0);
-    const outfielders = filterPositions(sorted.filter(p => p.position === 'OF'), 2);
+    const catchers = filterPositions(sortedBatters.filter(p => p.position === 'C'), 0);
+    const firstBasemen = filterPositions(sortedBatters.filter(p => p.position === '1B'), 0);
+    const secondBasemen = filterPositions(sortedBatters.filter(p => p.position === '2B'), 0);
+    const thirdBasemen = filterPositions(sortedBatters.filter(p => p.position === '3B'), 0);
+    const shortStops = filterPositions(sortedBatters.filter(p => p.position === 'SS'), 0);
+    const outfielders = filterPositions(sortedBatters.filter(p => p.position === 'OF'), 2);
     const pitchers = filterPositions(pitchersWithSalaries, 1);
 
     printByPosition(catchers, 'C');
@@ -150,6 +165,7 @@ const generate = exports.generate = (battersWithSalaries, pitchersWithSalaries, 
     printByPosition(outfielders, 'OF');
     printByPosition(pitchers, 'P');
 
+    console.log();
     const start = Date.now();
     let perms = 0;
     let highestSoFar = 0;
@@ -267,12 +283,12 @@ const generate = exports.generate = (battersWithSalaries, pitchersWithSalaries, 
     }
 
     console.log('time:', Date.now() - start, 'perms:', perms)
+    console.log();
 
     highestLineup.forEach(p => {
 
         const isPitcher = !p.spotInOrder;
-
-        const FIP = !isPitcher && p.opponent.FIP && p.opponent.xFIP ? (+p.opponent.FIP + +p.opponent.xFIP)/2 : 'N/A';
+        const FIP = !isPitcher && p.opponent.FIP && p.opponent.xFIP ? ((+p.opponent.FIP + +p.opponent.xFIP)/2).toFixed(2) : 'N/A';
 
         console.log(
             p.position.padEnd(5, ' '),
@@ -288,9 +304,7 @@ const generate = exports.generate = (battersWithSalaries, pitchersWithSalaries, 
     console.log('');
     console.log('total points:', highestLineup.reduce((total, player) => total += player.totalPoints, 0));
     console.log('total salary:', highestLineup.reduce((total, player) => total += player.salary, 0));
-}
-
-
+};
 
 
 exports.generateTeamStack = (battersWithSalaries, pitchersWithSalaries) => {
@@ -314,8 +328,6 @@ exports.generateTeamStack = (battersWithSalaries, pitchersWithSalaries) => {
         let highestSoFar = 0;
         let highestLineup = [];
 
-        let perms = 0
-
         for (let batter1I = 0; batter1I < batters.length - 4; ++batter1I) {
 
             const batter1 = batters[batter1I];
@@ -333,8 +345,6 @@ exports.generateTeamStack = (battersWithSalaries, pitchersWithSalaries) => {
                         const batter4 = batters[batter4I];
 
                         for (let batter5I = batter4I + 1; batter5I < batters.length; ++batter5I) {
-
-                            ++perms
 
                             const batter5 = batters[batter5I];
 
@@ -372,8 +382,8 @@ exports.generateTeamStack = (battersWithSalaries, pitchersWithSalaries) => {
         }
     })
 
-    console.log()
-    console.log(highestLineupOverall[0].opponent.name)
+    console.log();
+    console.log(highestLineupOverall[0].opponent.name);
     let sal = 0;
     let points = 0;
     const teamLineup = {};
@@ -403,5 +413,4 @@ exports.generateTeamStack = (battersWithSalaries, pitchersWithSalaries) => {
     });
     
     generate(battersWithSalaries, pitchersWithSalaries, teamLineup);
-}
-
+};

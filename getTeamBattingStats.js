@@ -47,7 +47,7 @@ const formatTeamRows = (rows, headers) => { // format team row from html to JS o
         const team = {};
         let index = 0;
 
-        row.children.forEach((element) => {
+        row.children.forEach(element => {
 
             if (element.name === 'td') {
 
@@ -71,7 +71,7 @@ const formatTeamRows = (rows, headers) => { // format team row from html to JS o
 };
 
 
-const calculateLeagueAverages = (formattedTeamBattingStats) => { // league averages for team batting stats
+const calculateLeagueAverages = formattedTeamBattingStats => { // league averages for team batting stats
 
     let runs = 0;
     let pa = 0;
@@ -115,7 +115,7 @@ const calculateTeamMultipliers = (leageAverages, formattedTeamBattingStats) => {
 };
 
 
-const formatTeamBattingStats = (html) => { // flow control for process of converting raw html to formatted team batting stats
+const formatTeamBattingStats = html => { // flow control for process of converting raw html to formatted team batting stats
 
     return new Promise((resolve, reject) => {
 
@@ -134,14 +134,11 @@ const formatTeamBattingStats = (html) => { // flow control for process of conver
 
 
 getTeamBattingStats()
-    .then(res => {
-
-        return formatTeamBattingStats(res);
-    })
+    .then(res => formatTeamBattingStats(res))
     .then(res => {
 
         Fs.writeFileSync(PATH_TO_FILE, JSON.stringify(res, null, 2));
-        console.log('Wrote team batting stats to', PATH_TO_FILE)
+        console.log('Wrote team batting stats to', PATH_TO_FILE);
     })
     .catch(err => {
 
