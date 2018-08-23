@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node --max-old-space-size=8192 index.js",
     "generate": "node handleAllDataFetched.js",
-    "team": "node handleAllDataFetched.js team"
+    "generate-disable-woba": "node handleAllDataFetched.js disable-woba",
+    "team": "node handleAllDataFetched.js team",
+    "team-disable-woba": "node handleAllDataFetched.js team disable-woba",
+    "savant": "node baseballSavant.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,6 @@
   "homepage": "https://github.com/louisrowan/dailyFantasy#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "wreck": "^14.0.2"
+    "wreck": "12.x.x"
   }
 }

@@ -12,6 +12,25 @@ const SalariesPath = Path.resolve(__dirname, './fixtures/salaries_' + DATE + '.c
 const salaries = Fs.readFileSync(SalariesPath, 'utf-8').split('\n');
 
 
+const disabledPlayers = [
+    // 'Tyler Anderson'
+    // 'Francisco Liriano'
+];
+
+const disabledTeams = [
+    // 'CHC',
+    // 'CIN',
+    // 'DET',
+    // 'CLE',
+    // 'PHI',
+    // 'WAS'
+    // 'OAK',
+    // 'CWS',
+    // 'BAL',
+    // 'WAS'
+];
+
+
 const readSalaries = () => { // read in exported DK CSV with player names and salaries
 
     return salaries.map(sal => {
@@ -27,7 +46,14 @@ const readSalaries = () => { // read in exported DK CSV with player names and sa
         player.averagePoints = +s[8];
 
         return player;
-    }).filter(sal => !!sal.name); // filter out any malformed rows like the last one
+    }).filter(sal => {
+
+        return (
+            !!sal.name &&
+            !disabledPlayers.includes(sal.name) &&
+            !disabledTeams.includes(sal.team)
+        );
+    }); // filter out any malformed rows like the last one
 };
 
 
@@ -190,7 +216,7 @@ const generate = exports.generate = (battersWithSalaries, pitchersWithSalaries, 
             const hasDefault2B = !!defaultLineup['2B'];
             for (let secondBasemenI = 0; secondBasemenI < (hasDefault2B ? 1 : secondBasemen.length); ++secondBasemenI) {
 
-                const secondBaseman = hasDefault2B ? defaultLineup['2b'] : secondBasemen[secondBasemenI];
+                const secondBaseman = hasDefault2B ? defaultLineup['2B'] : secondBasemen[secondBasemenI];
                 const _2points = _1points + secondBaseman.totalPoints;
                 const _2salary = _1salary + secondBaseman.salary;
 
@@ -292,11 +318,12 @@ const generate = exports.generate = (battersWithSalaries, pitchersWithSalaries, 
 
         console.log(
             p.position.padEnd(5, ' '),
-            p.name.padEnd(15, ' '),
+            p.name.padEnd(20, ' '),
             p.team.padEnd(5, ' '),
             p.totalPoints.toFixed(2).padEnd(5, ' '),
             p.salary.toString().padEnd(5, ' '),
-            !isPitcher ? p.opponent.name.padEnd(15, ' ') : '',
+            !isPitcher ? p.savantData.wobaDiff ? p.savantData.wobaDiff.padEnd(10, ' ') : 'N/A'.padEnd(10, ' ') : '',
+            !isPitcher ? p.opponent.name.padEnd(20, ' ') : '',
             !isPitcher ? `FIP: ${FIP}`.padEnd(10, ' ') : ''
         );
     });

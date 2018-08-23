@@ -1,6 +1,6 @@
 'use strict';
 
-const DATE = exports.DATE = '06-16';
+const DATE = exports.DATE = '08-23';
 exports.DOMAIN = 'https://www.fangraphs.com';
 exports.PATH_TO_FILE = './fixtures/games_' + DATE + '.json';
 exports.MIN_AB = 80; // min AB needed to qualify for starting a batter

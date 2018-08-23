@@ -137,8 +137,13 @@ getTeamBattingStats()
     .then(res => formatTeamBattingStats(res))
     .then(res => {
 
-        Fs.writeFileSync(PATH_TO_FILE, JSON.stringify(res, null, 2));
-        console.log('Wrote team batting stats to', PATH_TO_FILE);
+        if (res && res.length) {
+            Fs.writeFileSync(PATH_TO_FILE, JSON.stringify(res, null, 2));
+            console.log('Wrote team batting stats to', PATH_TO_FILE);
+        }
+        else {
+            console.log('Bad data for team batting stats', res)
+        }
     })
     .catch(err => {
 

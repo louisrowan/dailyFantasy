@@ -9,18 +9,19 @@ const Path = require('path');
 const Cheerio = require('cheerio');
 
 const GetPlayerData = require('./getPlayerData');
-const Upstream = require('./Upstream');
+const Upstream = require('./upstream');
 
 
 const getAllGames = () => { // get html for all games
 
     return new Promise((resolve, reject) => {
 
-        console.log('fetching games for', DATE, ':', PATH_TO_FILE);
-
         const path = '/livescoreboard.aspx?date=2018-' + DATE;
 
         Upstream.get(DOMAIN + path, {}, (err, res, payload) => {
+
+            console.log(payload.toString())
+            console.log(DOMAIN + path)
 
             if (err) {
                 console.log('error in getAllGames')

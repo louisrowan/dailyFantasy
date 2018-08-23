@@ -1,0 +1,4762 @@
+[
+  {
+    "name": "Mike Trout",
+    "team": "Angels",
+    "position": "CF",
+    "woba": ".445",
+    "estWoba": ".437",
+    "wobaDiff": "0.008"
+  },
+  {
+    "name": "Mookie Betts",
+    "team": "Red Sox",
+    "position": "RF",
+    "woba": ".444",
+    "estWoba": ".455",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "J.D. Martinez",
+    "team": "Red Sox",
+    "position": "DH",
+    "woba": ".440",
+    "estWoba": ".451",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Tyler White",
+    "team": "Astros",
+    "position": "1B",
+    "woba": ".428",
+    "estWoba": ".386",
+    "wobaDiff": "0.042"
+  },
+  {
+    "name": "Jose Ramirez",
+    "team": "Indians",
+    "position": "3B",
+    "woba": ".426",
+    "estWoba": ".404",
+    "wobaDiff": "0.022"
+  },
+  {
+    "name": "Danny Jansen",
+    "team": "Blue Jays",
+    "position": "C",
+    "woba": ".412",
+    "estWoba": ".315",
+    "wobaDiff": "0.097"
+  },
+  {
+    "name": "Cedric Mullins",
+    "team": "Orioles",
+    "position": "CF",
+    "woba": ".411",
+    "estWoba": ".287",
+    "wobaDiff": "0.124"
+  },
+  {
+    "name": "Nolan Arenado",
+    "team": "Rockies",
+    "position": "3B",
+    "woba": ".407",
+    "estWoba": ".384",
+    "wobaDiff": "0.023"
+  },
+  {
+    "name": "Steve Pearce",
+    "team": "Red Sox",
+    "position": "1B",
+    "woba": ".407",
+    "estWoba": ".463",
+    "wobaDiff": "-0.056"
+  },
+  {
+    "name": "Paul Goldschmidt",
+    "team": "Diamondbacks",
+    "position": "1B",
+    "woba": ".405",
+    "estWoba": ".410",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Isaac Galloway",
+    "team": "Marlins",
+    "position": "CF",
+    "woba": ".403",
+    "estWoba": ".320",
+    "wobaDiff": "0.083"
+  },
+  {
+    "name": "Aaron Judge",
+    "team": "Yankees",
+    "position": "RF",
+    "woba": ".402",
+    "estWoba": ".408",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Matt Carpenter",
+    "team": "Cardinals",
+    "position": "3B",
+    "woba": ".398",
+    "estWoba": ".428",
+    "wobaDiff": "-0.030"
+  },
+  {
+    "name": "Francisco Arcia",
+    "team": "Angels",
+    "position": "C",
+    "woba": ".396",
+    "estWoba": ".379",
+    "wobaDiff": "0.017"
+  },
+  {
+    "name": "Max Muncy",
+    "team": "Dodgers",
+    "position": "1B",
+    "woba": ".396",
+    "estWoba": ".404",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Juan Soto",
+    "team": "Nationals",
+    "position": "LF",
+    "woba": ".396",
+    "estWoba": ".371",
+    "wobaDiff": "0.025"
+  },
+  {
+    "name": "Curt Casali",
+    "team": "Reds",
+    "position": "C",
+    "woba": ".394",
+    "estWoba": ".351",
+    "wobaDiff": "0.043"
+  },
+  {
+    "name": "Eugenio Suarez",
+    "team": "Reds",
+    "position": "3B",
+    "woba": ".394",
+    "estWoba": ".401",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "Freddie Freeman",
+    "team": "Braves",
+    "position": "1B",
+    "woba": ".393",
+    "estWoba": ".416",
+    "wobaDiff": "-0.023"
+  },
+  {
+    "name": "Jesus Aguilar",
+    "team": "Brewers",
+    "position": "1B",
+    "woba": ".390",
+    "estWoba": ".390",
+    "wobaDiff": "0.000"
+  },
+  {
+    "name": "Ronald Acuna Jr.",
+    "team": "Braves",
+    "position": "LF",
+    "woba": ".389",
+    "estWoba": ".391",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Christian Yelich",
+    "team": "Brewers",
+    "position": "LF",
+    "woba": ".388",
+    "estWoba": ".388",
+    "wobaDiff": "0.000"
+  },
+  {
+    "name": "David Peralta",
+    "team": "Diamondbacks",
+    "position": "LF",
+    "woba": ".388",
+    "estWoba": ".375",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "Alex Bregman",
+    "team": "Astros",
+    "position": "3B",
+    "woba": ".387",
+    "estWoba": ".392",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Francisco Lindor",
+    "team": "Indians",
+    "position": "SS",
+    "woba": ".385",
+    "estWoba": ".403",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Manny Machado",
+    "team": "Dodgers",
+    "position": "SS",
+    "woba": ".385",
+    "estWoba": ".396",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Brandon Nimmo",
+    "team": "Mets",
+    "position": "CF",
+    "woba": ".384",
+    "estWoba": ".351",
+    "wobaDiff": "0.033"
+  },
+  {
+    "name": "Jeff McNeil",
+    "team": "Mets",
+    "position": "2B",
+    "woba": ".381",
+    "estWoba": ".348",
+    "wobaDiff": "0.033"
+  },
+  {
+    "name": "Khris Davis",
+    "team": "Athletics",
+    "position": "DH",
+    "woba": ".381",
+    "estWoba": ".411",
+    "wobaDiff": "-0.030"
+  },
+  {
+    "name": "Justin Turner",
+    "team": "Dodgers",
+    "position": "3B",
+    "woba": ".380",
+    "estWoba": ".383",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Shin-Soo Choo",
+    "team": "Rangers",
+    "position": "DH",
+    "woba": ".380",
+    "estWoba": ".398",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Trevor Story",
+    "team": "Rockies",
+    "position": "SS",
+    "woba": ".379",
+    "estWoba": ".356",
+    "wobaDiff": "0.023"
+  },
+  {
+    "name": "Giancarlo Stanton",
+    "team": "Yankees",
+    "position": "DH",
+    "woba": ".376",
+    "estWoba": ".360",
+    "wobaDiff": "0.016"
+  },
+  {
+    "name": "Bryce Harper",
+    "team": "Nationals",
+    "position": "RF",
+    "woba": ".376",
+    "estWoba": ".394",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Xander Bogaerts",
+    "team": "Red Sox",
+    "position": "SS",
+    "woba": ".374",
+    "estWoba": ".386",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Andrew Benintendi",
+    "team": "Red Sox",
+    "position": "LF",
+    "woba": ".374",
+    "estWoba": ".378",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Nelson Cruz",
+    "team": "Mariners",
+    "position": "DH",
+    "woba": ".374",
+    "estWoba": ".415",
+    "wobaDiff": "-0.041"
+  },
+  {
+    "name": "Joey Votto",
+    "team": "Reds",
+    "position": "1B",
+    "woba": ".372",
+    "estWoba": ".423",
+    "wobaDiff": "-0.051"
+  },
+  {
+    "name": "Shohei Ohtani",
+    "team": "Angels",
+    "position": "DH",
+    "woba": ".370",
+    "estWoba": ".368",
+    "wobaDiff": "0.002"
+  },
+  {
+    "name": "Francisco Cervelli",
+    "team": "Pirates",
+    "position": "C",
+    "woba": ".370",
+    "estWoba": ".382",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Matt Chapman",
+    "team": "Athletics",
+    "position": "3B",
+    "woba": ".369",
+    "estWoba": ".363",
+    "wobaDiff": "0.006"
+  },
+  {
+    "name": "Rhys Hoskins",
+    "team": "Phillies",
+    "position": "LF",
+    "woba": ".369",
+    "estWoba": ".373",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Jose Altuve",
+    "team": "Astros",
+    "position": "2B",
+    "woba": ".368",
+    "estWoba": ".375",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "Javier Baez",
+    "team": "Cubs",
+    "position": "2B",
+    "woba": ".368",
+    "estWoba": ".361",
+    "wobaDiff": "0.007"
+  },
+  {
+    "name": "Ben Zobrist",
+    "team": "Cubs",
+    "position": "2B",
+    "woba": ".367",
+    "estWoba": ".357",
+    "wobaDiff": "0.010"
+  },
+  {
+    "name": "A.J. Pollock",
+    "team": "Diamondbacks",
+    "position": "CF",
+    "woba": ".367",
+    "estWoba": ".367",
+    "wobaDiff": "0.000"
+  },
+  {
+    "name": "Lonnie Chisenhall",
+    "team": "Indians",
+    "position": "RF",
+    "woba": ".367",
+    "estWoba": ".340",
+    "wobaDiff": "0.027"
+  },
+  {
+    "name": "Kris Bryant",
+    "team": "Cubs",
+    "position": "3B",
+    "woba": ".366",
+    "estWoba": ".370",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Jesse Winker",
+    "team": "Reds",
+    "position": "RF",
+    "woba": ".366",
+    "estWoba": ".384",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Wilson Ramos",
+    "team": "Phillies",
+    "position": "C",
+    "woba": ".365",
+    "estWoba": ".376",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Lorenzo Cain",
+    "team": "Brewers",
+    "position": "CF",
+    "woba": ".364",
+    "estWoba": ".343",
+    "wobaDiff": "0.021"
+  },
+  {
+    "name": "Ryan Zimmerman",
+    "team": "Nationals",
+    "position": "1B",
+    "woba": ".364",
+    "estWoba": ".426",
+    "wobaDiff": "-0.062"
+  },
+  {
+    "name": "David Bote",
+    "team": "Cubs",
+    "position": "3B",
+    "woba": ".364",
+    "estWoba": ".417",
+    "wobaDiff": "-0.053"
+  },
+  {
+    "name": "Garrett Hampson",
+    "team": "Rockies",
+    "position": "2B",
+    "woba": ".363",
+    "estWoba": ".329",
+    "wobaDiff": "0.034"
+  },
+  {
+    "name": "Ryan O'Hearn",
+    "team": "Royals",
+    "position": "DH",
+    "woba": ".363",
+    "estWoba": ".377",
+    "wobaDiff": "-0.014"
+  },
+  {
+    "name": "Nick Markakis",
+    "team": "Braves",
+    "position": "RF",
+    "woba": ".363",
+    "estWoba": ".370",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "Scooter Gennett",
+    "team": "Reds",
+    "position": "2B",
+    "woba": ".362",
+    "estWoba": ".329",
+    "wobaDiff": "0.033"
+  },
+  {
+    "name": "Lourdes Gurriel Jr.",
+    "team": "Blue Jays",
+    "position": "2B",
+    "woba": ".362",
+    "estWoba": ".375",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Daniel Descalso",
+    "team": "Diamondbacks",
+    "position": "2B",
+    "woba": ".362",
+    "estWoba": ".359",
+    "wobaDiff": "0.003"
+  },
+  {
+    "name": "Anthony Rendon",
+    "team": "Nationals",
+    "position": "3B",
+    "woba": ".361",
+    "estWoba": ".400",
+    "wobaDiff": "-0.039"
+  },
+  {
+    "name": "J.T. Realmuto",
+    "team": "Marlins",
+    "position": "C",
+    "woba": ".360",
+    "estWoba": ".368",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Aaron Hicks",
+    "team": "Yankees",
+    "position": "CF",
+    "woba": ".360",
+    "estWoba": ".384",
+    "wobaDiff": "-0.024"
+  },
+  {
+    "name": "Mitch Haniger",
+    "team": "Mariners",
+    "position": "RF",
+    "woba": ".360",
+    "estWoba": ".382",
+    "wobaDiff": "-0.022"
+  },
+  {
+    "name": "Miguel Cabrera",
+    "team": "Tigers",
+    "position": "1B",
+    "woba": ".360",
+    "estWoba": ".386",
+    "wobaDiff": "-0.026"
+  },
+  {
+    "name": "Jose Martinez",
+    "team": "Cardinals",
+    "position": "1B",
+    "woba": ".360",
+    "estWoba": ".394",
+    "wobaDiff": "-0.034"
+  },
+  {
+    "name": "Miguel Andujar",
+    "team": "Yankees",
+    "position": "3B",
+    "woba": ".359",
+    "estWoba": ".345",
+    "wobaDiff": "0.014"
+  },
+  {
+    "name": "Nick Martini",
+    "team": "Athletics",
+    "position": "LF",
+    "woba": ".358",
+    "estWoba": ".345",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "Matt Adams",
+    "team": "Nationals",
+    "position": "1B",
+    "woba": ".358",
+    "estWoba": ".361",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Eduardo Escobar",
+    "team": "Diamondbacks",
+    "position": "3B",
+    "woba": ".358",
+    "estWoba": ".344",
+    "wobaDiff": "0.014"
+  },
+  {
+    "name": "Nicholas Castellanos",
+    "team": "Tigers",
+    "position": "RF",
+    "woba": ".357",
+    "estWoba": ".386",
+    "wobaDiff": "-0.029"
+  },
+  {
+    "name": "Jed Lowrie",
+    "team": "Athletics",
+    "position": "2B",
+    "woba": ".356",
+    "estWoba": ".350",
+    "wobaDiff": "0.006"
+  },
+  {
+    "name": "Justin Upton",
+    "team": "Angels",
+    "position": "LF",
+    "woba": ".356",
+    "estWoba": ".376",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Michael Brantley",
+    "team": "Indians",
+    "position": "LF",
+    "woba": ".356",
+    "estWoba": ".383",
+    "wobaDiff": "-0.027"
+  },
+  {
+    "name": "Justin Smoak",
+    "team": "Blue Jays",
+    "position": "1B",
+    "woba": ".356",
+    "estWoba": ".370",
+    "wobaDiff": "-0.014"
+  },
+  {
+    "name": "Roman Quinn",
+    "team": "Phillies",
+    "position": "CF",
+    "woba": ".355",
+    "estWoba": ".254",
+    "wobaDiff": "0.101"
+  },
+  {
+    "name": "Yasmani Grandal",
+    "team": "Dodgers",
+    "position": "C",
+    "woba": ".355",
+    "estWoba": ".365",
+    "wobaDiff": "-0.010"
+  },
+  {
+    "name": "Jorge Soler",
+    "team": "Royals",
+    "position": "RF",
+    "woba": ".355",
+    "estWoba": ".359",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Robinson Cano",
+    "team": "Mariners",
+    "position": "2B",
+    "woba": ".354",
+    "estWoba": ".402",
+    "wobaDiff": "-0.048"
+  },
+  {
+    "name": "Scott Schebler",
+    "team": "Reds",
+    "position": "RF",
+    "woba": ".354",
+    "estWoba": ".367",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Omar Narvaez",
+    "team": "White Sox",
+    "position": "C",
+    "woba": ".354",
+    "estWoba": ".346",
+    "wobaDiff": "0.008"
+  },
+  {
+    "name": "Daniel Robertson",
+    "team": "Rays",
+    "position": "2B",
+    "woba": ".354",
+    "estWoba": ".342",
+    "wobaDiff": "0.012"
+  },
+  {
+    "name": "Mark Reynolds",
+    "team": "Nationals",
+    "position": "1B",
+    "woba": ".353",
+    "estWoba": ".357",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Dwight Smith Jr.",
+    "team": "Blue Jays",
+    "position": "LF",
+    "woba": ".353",
+    "estWoba": ".298",
+    "wobaDiff": "0.055"
+  },
+  {
+    "name": "Austin Dean",
+    "team": "Marlins",
+    "position": "LF",
+    "woba": ".353",
+    "estWoba": ".401",
+    "wobaDiff": "-0.048"
+  },
+  {
+    "name": "Charlie Culberson",
+    "team": "Braves",
+    "position": "LF",
+    "woba": ".353",
+    "estWoba": ".275",
+    "wobaDiff": "0.078"
+  },
+  {
+    "name": "Tony Kemp",
+    "team": "Astros",
+    "position": "LF",
+    "woba": ".353",
+    "estWoba": ".304",
+    "wobaDiff": "0.049"
+  },
+  {
+    "name": "Charlie Blackmon",
+    "team": "Rockies",
+    "position": "CF",
+    "woba": ".352",
+    "estWoba": ".350",
+    "wobaDiff": "0.002"
+  },
+  {
+    "name": "Joc Pederson",
+    "team": "Dodgers",
+    "position": "LF",
+    "woba": ".350",
+    "estWoba": ".353",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Travis Shaw",
+    "team": "Brewers",
+    "position": "3B",
+    "woba": ".350",
+    "estWoba": ".360",
+    "wobaDiff": "-0.010"
+  },
+  {
+    "name": "Rougned Odor",
+    "team": "Rangers",
+    "position": "2B",
+    "woba": ".350",
+    "estWoba": ".330",
+    "wobaDiff": "0.020"
+  },
+  {
+    "name": "Mallex Smith",
+    "team": "Rays",
+    "position": "CF",
+    "woba": ".350",
+    "estWoba": ".303",
+    "wobaDiff": "0.047"
+  },
+  {
+    "name": "Carlos Gonzalez",
+    "team": "Rockies",
+    "position": "RF",
+    "woba": ".349",
+    "estWoba": ".314",
+    "wobaDiff": "0.035"
+  },
+  {
+    "name": "Phillip Ervin",
+    "team": "Reds",
+    "position": "RF",
+    "woba": ".349",
+    "estWoba": ".336",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "Whit Merrifield",
+    "team": "Royals",
+    "position": "2B",
+    "woba": ".349",
+    "estWoba": ".350",
+    "wobaDiff": "-0.001"
+  },
+  {
+    "name": "Joey Gallo",
+    "team": "Rangers",
+    "position": "LF",
+    "woba": ".348",
+    "estWoba": ".378",
+    "wobaDiff": "-0.030"
+  },
+  {
+    "name": "Yandy Diaz",
+    "team": "Indians",
+    "position": "DH",
+    "woba": ".348",
+    "estWoba": ".428",
+    "wobaDiff": "-0.080"
+  },
+  {
+    "name": "Anthony Rizzo",
+    "team": "Cubs",
+    "position": "1B",
+    "woba": ".348",
+    "estWoba": ".382",
+    "wobaDiff": "-0.034"
+  },
+  {
+    "name": "Pedro Florimon",
+    "team": "Phillies",
+    "position": "SS",
+    "woba": ".347",
+    "estWoba": ".323",
+    "wobaDiff": "0.024"
+  },
+  {
+    "name": "Gregory Polanco",
+    "team": "Pirates",
+    "position": "RF",
+    "woba": ".346",
+    "estWoba": ".351",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Jose Abreu",
+    "team": "White Sox",
+    "position": "1B",
+    "woba": ".346",
+    "estWoba": ".377",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Brandon Belt",
+    "team": "Giants",
+    "position": "1B",
+    "woba": ".346",
+    "estWoba": ".382",
+    "wobaDiff": "-0.036"
+  },
+  {
+    "name": "Kyle Schwarber",
+    "team": "Cubs",
+    "position": "LF",
+    "woba": ".346",
+    "estWoba": ".364",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Eddie Rosario",
+    "team": "Twins",
+    "position": "LF",
+    "woba": ".346",
+    "estWoba": ".319",
+    "wobaDiff": "0.027"
+  },
+  {
+    "name": "Didi Gregorius",
+    "team": "Yankees",
+    "position": "SS",
+    "woba": ".345",
+    "estWoba": ".330",
+    "wobaDiff": "0.015"
+  },
+  {
+    "name": "Yoenis Cespedes",
+    "team": "Mets",
+    "position": "LF",
+    "woba": ".345",
+    "estWoba": ".302",
+    "wobaDiff": "0.043"
+  },
+  {
+    "name": "David Freese",
+    "team": "Pirates",
+    "position": "3B",
+    "woba": ".344",
+    "estWoba": ".370",
+    "wobaDiff": "-0.026"
+  },
+  {
+    "name": "Corey Dickerson",
+    "team": "Pirates",
+    "position": "LF",
+    "woba": ".344",
+    "estWoba": ".343",
+    "wobaDiff": "0.001"
+  },
+  {
+    "name": "Elias Diaz",
+    "team": "Pirates",
+    "position": "C",
+    "woba": ".344",
+    "estWoba": ".362",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Cody Bellinger",
+    "team": "Dodgers",
+    "position": "1B",
+    "woba": ".344",
+    "estWoba": ".330",
+    "wobaDiff": "0.014"
+  },
+  {
+    "name": "Matt Kemp",
+    "team": "Dodgers",
+    "position": "LF",
+    "woba": ".344",
+    "estWoba": ".379",
+    "wobaDiff": "-0.035"
+  },
+  {
+    "name": "Denard Span",
+    "team": "Mariners",
+    "position": "LF",
+    "woba": ".344",
+    "estWoba": ".346",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Howie Kendrick",
+    "team": "Nationals",
+    "position": "2B",
+    "woba": ".343",
+    "estWoba": ".330",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "Tyler Austin",
+    "team": "Twins",
+    "position": "1B",
+    "woba": ".343",
+    "estWoba": ".348",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Gleyber Torres",
+    "team": "Yankees",
+    "position": "2B",
+    "woba": ".343",
+    "estWoba": ".355",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Wil Myers",
+    "team": "Padres",
+    "position": "LF",
+    "woba": ".342",
+    "estWoba": ".355",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Harrison Bader",
+    "team": "Cardinals",
+    "position": "CF",
+    "woba": ".341",
+    "estWoba": ".296",
+    "wobaDiff": "0.045"
+  },
+  {
+    "name": "Alex Verdugo",
+    "team": "Dodgers",
+    "position": "LF",
+    "woba": ".341",
+    "estWoba": ".366",
+    "wobaDiff": "-0.025"
+  },
+  {
+    "name": "Kendrys Morales",
+    "team": "Blue Jays",
+    "position": "DH",
+    "woba": ".341",
+    "estWoba": ".414",
+    "wobaDiff": "-0.073"
+  },
+  {
+    "name": "Rene Rivera",
+    "team": "Angels",
+    "position": "C",
+    "woba": ".341",
+    "estWoba": ".330",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Nick Williams",
+    "team": "Phillies",
+    "position": "RF",
+    "woba": ".341",
+    "estWoba": ".366",
+    "wobaDiff": "-0.025"
+  },
+  {
+    "name": "Johan Camargo",
+    "team": "Braves",
+    "position": "3B",
+    "woba": ".341",
+    "estWoba": ".325",
+    "wobaDiff": "0.016"
+  },
+  {
+    "name": "Eric Thames",
+    "team": "Brewers",
+    "position": "1B",
+    "woba": ".340",
+    "estWoba": ".355",
+    "wobaDiff": "-0.015"
+  },
+  {
+    "name": "Jurickson Profar",
+    "team": "Rangers",
+    "position": "SS",
+    "woba": ".340",
+    "estWoba": ".336",
+    "wobaDiff": "0.004"
+  },
+  {
+    "name": "Maikel Franco",
+    "team": "Phillies",
+    "position": "3B",
+    "woba": ".340",
+    "estWoba": ".336",
+    "wobaDiff": "0.004"
+  },
+  {
+    "name": "Adam Eaton",
+    "team": "Nationals",
+    "position": "RF",
+    "woba": ".340",
+    "estWoba": ".342",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Willson Contreras",
+    "team": "Cubs",
+    "position": "C",
+    "woba": ".340",
+    "estWoba": ".315",
+    "wobaDiff": "0.025"
+  },
+  {
+    "name": "Ji-Man Choi",
+    "team": "Rays",
+    "position": "DH",
+    "woba": ".339",
+    "estWoba": ".369",
+    "wobaDiff": "-0.030"
+  },
+  {
+    "name": "Mitch Moreland",
+    "team": "Red Sox",
+    "position": "1B",
+    "woba": ".339",
+    "estWoba": ".393",
+    "wobaDiff": "-0.054"
+  },
+  {
+    "name": "Clint Frazier",
+    "team": "Yankees",
+    "position": "LF",
+    "woba": ".339",
+    "estWoba": ".358",
+    "wobaDiff": "-0.019"
+  },
+  {
+    "name": "Brian Goodwin",
+    "team": "Royals",
+    "position": "CF",
+    "woba": ".339",
+    "estWoba": ".340",
+    "wobaDiff": "-0.001"
+  },
+  {
+    "name": "C.J. Cron",
+    "team": "Rays",
+    "position": "DH",
+    "woba": ".339",
+    "estWoba": ".351",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Edwin Encarnacion",
+    "team": "Indians",
+    "position": "DH",
+    "woba": ".339",
+    "estWoba": ".383",
+    "wobaDiff": "-0.044"
+  },
+  {
+    "name": "Tyler O'Neill",
+    "team": "Cardinals",
+    "position": "RF",
+    "woba": ".339",
+    "estWoba": ".329",
+    "wobaDiff": "0.010"
+  },
+  {
+    "name": "Yasiel Puig",
+    "team": "Dodgers",
+    "position": "RF",
+    "woba": ".338",
+    "estWoba": ".351",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Matt Davidson",
+    "team": "White Sox",
+    "position": "DH",
+    "woba": ".338",
+    "estWoba": ".337",
+    "wobaDiff": "0.001"
+  },
+  {
+    "name": "Ronald Torreyes",
+    "team": "Yankees",
+    "position": "2B",
+    "woba": ".337",
+    "estWoba": ".279",
+    "wobaDiff": "0.058"
+  },
+  {
+    "name": "Jedd Gyorko",
+    "team": "Cardinals",
+    "position": "3B",
+    "woba": ".336",
+    "estWoba": ".335",
+    "wobaDiff": "0.001"
+  },
+  {
+    "name": "Curtis Granderson",
+    "team": "Blue Jays",
+    "position": "RF",
+    "woba": ".336",
+    "estWoba": ".347",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Ben Gamel",
+    "team": "Mariners",
+    "position": "LF",
+    "woba": ".336",
+    "estWoba": ".325",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Jean Segura",
+    "team": "Mariners",
+    "position": "SS",
+    "woba": ".336",
+    "estWoba": ".314",
+    "wobaDiff": "0.022"
+  },
+  {
+    "name": "Andrew McCutchen",
+    "team": "Giants",
+    "position": "RF",
+    "woba": ".335",
+    "estWoba": ".363",
+    "wobaDiff": "-0.028"
+  },
+  {
+    "name": "A.J. Ellis",
+    "team": "Padres",
+    "position": "C",
+    "woba": ".335",
+    "estWoba": ".349",
+    "wobaDiff": "-0.014"
+  },
+  {
+    "name": "Austin Meadows",
+    "team": "Pirates",
+    "position": "CF",
+    "woba": ".335",
+    "estWoba": ".332",
+    "wobaDiff": "0.003"
+  },
+  {
+    "name": "Daniel Murphy",
+    "team": "Cubs",
+    "position": "2B",
+    "woba": ".335",
+    "estWoba": ".373",
+    "wobaDiff": "-0.038"
+  },
+  {
+    "name": "Ian Happ",
+    "team": "Cubs",
+    "position": "CF",
+    "woba": ".334",
+    "estWoba": ".337",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Wilmer Flores",
+    "team": "Mets",
+    "position": "1B",
+    "woba": ".334",
+    "estWoba": ".327",
+    "wobaDiff": "0.007"
+  },
+  {
+    "name": "Asdrubal Cabrera",
+    "team": "Phillies",
+    "position": "2B",
+    "woba": ".334",
+    "estWoba": ".347",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Adam Frazier",
+    "team": "Pirates",
+    "position": "2B",
+    "woba": ".333",
+    "estWoba": ".330",
+    "wobaDiff": "0.003"
+  },
+  {
+    "name": "Welington Castillo",
+    "team": "White Sox",
+    "position": "C",
+    "woba": ".333",
+    "estWoba": ".353",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Yadier Molina",
+    "team": "Cardinals",
+    "position": "C",
+    "woba": ".333",
+    "estWoba": ".369",
+    "wobaDiff": "-0.036"
+  },
+  {
+    "name": "David Dahl",
+    "team": "Rockies",
+    "position": "LF",
+    "woba": ".333",
+    "estWoba": ".342",
+    "wobaDiff": "-0.009"
+  },
+  {
+    "name": "George Springer",
+    "team": "Astros",
+    "position": "CF",
+    "woba": ".332",
+    "estWoba": ".359",
+    "wobaDiff": "-0.027"
+  },
+  {
+    "name": "Ozzie Albies",
+    "team": "Braves",
+    "position": "2B",
+    "woba": ".332",
+    "estWoba": ".317",
+    "wobaDiff": "0.015"
+  },
+  {
+    "name": "Derek Dietrich",
+    "team": "Marlins",
+    "position": "LF",
+    "woba": ".332",
+    "estWoba": ".313",
+    "wobaDiff": "0.019"
+  },
+  {
+    "name": "Jose Briceno",
+    "team": "Angels",
+    "position": "C",
+    "woba": ".332",
+    "estWoba": ".326",
+    "wobaDiff": "0.006"
+  },
+  {
+    "name": "Carlos Santana",
+    "team": "Phillies",
+    "position": "1B",
+    "woba": ".332",
+    "estWoba": ".368",
+    "wobaDiff": "-0.036"
+  },
+  {
+    "name": "Carlos Correa",
+    "team": "Astros",
+    "position": "SS",
+    "woba": ".332",
+    "estWoba": ".330",
+    "wobaDiff": "0.002"
+  },
+  {
+    "name": "Robinson Chirinos",
+    "team": "Rangers",
+    "position": "C",
+    "woba": ".332",
+    "estWoba": ".319",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "Brian Anderson",
+    "team": "Marlins",
+    "position": "RF",
+    "woba": ".332",
+    "estWoba": ".357",
+    "wobaDiff": "-0.025"
+  },
+  {
+    "name": "Hunter Renfroe",
+    "team": "Padres",
+    "position": "RF",
+    "woba": ".331",
+    "estWoba": ".334",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Jose Rondon",
+    "team": "White Sox",
+    "position": "DH",
+    "woba": ".331",
+    "estWoba": ".341",
+    "wobaDiff": "-0.010"
+  },
+  {
+    "name": "Nomar Mazara",
+    "team": "Rangers",
+    "position": "RF",
+    "woba": ".331",
+    "estWoba": ".347",
+    "wobaDiff": "-0.016"
+  },
+  {
+    "name": "Austin Slater",
+    "team": "Giants",
+    "position": "LF",
+    "woba": ".331",
+    "estWoba": ".307",
+    "wobaDiff": "0.024"
+  },
+  {
+    "name": "Justin Bour",
+    "team": "Phillies",
+    "position": "1B",
+    "woba": ".330",
+    "estWoba": ".353",
+    "wobaDiff": "-0.023"
+  },
+  {
+    "name": "Ryan Braun",
+    "team": "Brewers",
+    "position": "LF",
+    "woba": ".330",
+    "estWoba": ".376",
+    "wobaDiff": "-0.046"
+  },
+  {
+    "name": "Starling Marte",
+    "team": "Pirates",
+    "position": "CF",
+    "woba": ".330",
+    "estWoba": ".341",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Stephen Piscotty",
+    "team": "Athletics",
+    "position": "RF",
+    "woba": ".330",
+    "estWoba": ".366",
+    "wobaDiff": "-0.036"
+  },
+  {
+    "name": "Juan Lagares",
+    "team": "Mets",
+    "position": "CF",
+    "woba": ".330",
+    "estWoba": ".265",
+    "wobaDiff": "0.065"
+  },
+  {
+    "name": "Yairo Munoz",
+    "team": "Cardinals",
+    "position": "SS",
+    "woba": ".330",
+    "estWoba": ".289",
+    "wobaDiff": "0.041"
+  },
+  {
+    "name": "Andrelton Simmons",
+    "team": "Angels",
+    "position": "SS",
+    "woba": ".330",
+    "estWoba": ".336",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Michael Conforto",
+    "team": "Mets",
+    "position": "CF",
+    "woba": ".329",
+    "estWoba": ".342",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Mark Trumbo",
+    "team": "Orioles",
+    "position": "DH",
+    "woba": ".329",
+    "estWoba": ".346",
+    "wobaDiff": "-0.017"
+  },
+  {
+    "name": "Joey Wendle",
+    "team": "Rays",
+    "position": "2B",
+    "woba": ".329",
+    "estWoba": ".317",
+    "wobaDiff": "0.012"
+  },
+  {
+    "name": "Franklin Barreto",
+    "team": "Athletics",
+    "position": "2B",
+    "woba": ".329",
+    "estWoba": ".240",
+    "wobaDiff": "0.089"
+  },
+  {
+    "name": "Max Kepler",
+    "team": "Twins",
+    "position": "RF",
+    "woba": ".328",
+    "estWoba": ".336",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Jake Cave",
+    "team": "Twins",
+    "position": "CF",
+    "woba": ".328",
+    "estWoba": ".349",
+    "wobaDiff": "-0.021"
+  },
+  {
+    "name": "Teoscar Hernandez",
+    "team": "Blue Jays",
+    "position": "LF",
+    "woba": ".328",
+    "estWoba": ".354",
+    "wobaDiff": "-0.026"
+  },
+  {
+    "name": "Matt Olson",
+    "team": "Athletics",
+    "position": "1B",
+    "woba": ".328",
+    "estWoba": ".373",
+    "wobaDiff": "-0.045"
+  },
+  {
+    "name": "Josh Bell",
+    "team": "Pirates",
+    "position": "1B",
+    "woba": ".327",
+    "estWoba": ".337",
+    "wobaDiff": "-0.010"
+  },
+  {
+    "name": "Gregorio Petit",
+    "team": "Twins",
+    "position": "SS",
+    "woba": ".327",
+    "estWoba": ".324",
+    "wobaDiff": "0.003"
+  },
+  {
+    "name": "Melky Cabrera",
+    "team": "Indians",
+    "position": "RF",
+    "woba": ".327",
+    "estWoba": ".339",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Chad Pinder",
+    "team": "Athletics",
+    "position": "LF",
+    "woba": ".327",
+    "estWoba": ".376",
+    "wobaDiff": "-0.049"
+  },
+  {
+    "name": "Albert Almora Jr.",
+    "team": "Cubs",
+    "position": "CF",
+    "woba": ".327",
+    "estWoba": ".274",
+    "wobaDiff": "0.053"
+  },
+  {
+    "name": "Kurt Suzuki",
+    "team": "Braves",
+    "position": "C",
+    "woba": ".326",
+    "estWoba": ".344",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Odubel Herrera",
+    "team": "Phillies",
+    "position": "CF",
+    "woba": ".326",
+    "estWoba": ".294",
+    "wobaDiff": "0.032"
+  },
+  {
+    "name": "Cesar Hernandez",
+    "team": "Phillies",
+    "position": "2B",
+    "woba": ".326",
+    "estWoba": ".322",
+    "wobaDiff": "0.004"
+  },
+  {
+    "name": "Mike Moustakas",
+    "team": "Brewers",
+    "position": "3B",
+    "woba": ".326",
+    "estWoba": ".360",
+    "wobaDiff": "-0.034"
+  },
+  {
+    "name": "Nicky Delmonico",
+    "team": "White Sox",
+    "position": "LF",
+    "woba": ".325",
+    "estWoba": ".324",
+    "wobaDiff": "0.001"
+  },
+  {
+    "name": "Josh Donaldson",
+    "team": "Blue Jays",
+    "position": "3B",
+    "woba": ".325",
+    "estWoba": ".319",
+    "wobaDiff": "0.006"
+  },
+  {
+    "name": "Chris Taylor",
+    "team": "Dodgers",
+    "position": "SS",
+    "woba": ".325",
+    "estWoba": ".328",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Jake Bauers",
+    "team": "Rays",
+    "position": "1B",
+    "woba": ".325",
+    "estWoba": ".333",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Buster Posey",
+    "team": "Giants",
+    "position": "C",
+    "woba": ".325",
+    "estWoba": ".360",
+    "wobaDiff": "-0.035"
+  },
+  {
+    "name": "Richard Urena",
+    "team": "Blue Jays",
+    "position": "SS",
+    "woba": ".325",
+    "estWoba": ".308",
+    "wobaDiff": "0.017"
+  },
+  {
+    "name": "Jorge Polanco",
+    "team": "Twins",
+    "position": "SS",
+    "woba": ".325",
+    "estWoba": ".290",
+    "wobaDiff": "0.035"
+  },
+  {
+    "name": "Trea Turner",
+    "team": "Nationals",
+    "position": "SS",
+    "woba": ".324",
+    "estWoba": ".330",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Evan Gattis",
+    "team": "Astros",
+    "position": "DH",
+    "woba": ".324",
+    "estWoba": ".321",
+    "wobaDiff": "0.003"
+  },
+  {
+    "name": "Corey Seager",
+    "team": "Dodgers",
+    "position": "SS",
+    "woba": ".324",
+    "estWoba": ".394",
+    "wobaDiff": "-0.070"
+  },
+  {
+    "name": "Mark Canha",
+    "team": "Athletics",
+    "position": "CF",
+    "woba": ".324",
+    "estWoba": ".341",
+    "wobaDiff": "-0.017"
+  },
+  {
+    "name": "Christian Villanueva",
+    "team": "Padres",
+    "position": "3B",
+    "woba": ".323",
+    "estWoba": ".312",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Mitch Garver",
+    "team": "Twins",
+    "position": "C",
+    "woba": ".323",
+    "estWoba": ".316",
+    "wobaDiff": "0.007"
+  },
+  {
+    "name": "Paul DeJong",
+    "team": "Cardinals",
+    "position": "SS",
+    "woba": ".323",
+    "estWoba": ".352",
+    "wobaDiff": "-0.029"
+  },
+  {
+    "name": "Chase d'Arnaud",
+    "team": "Giants",
+    "position": "2B",
+    "woba": ".323",
+    "estWoba": ".299",
+    "wobaDiff": "0.024"
+  },
+  {
+    "name": "Rafael Ortega",
+    "team": "Marlins",
+    "position": "RF",
+    "woba": ".323",
+    "estWoba": ".327",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Leonys Martin",
+    "team": "Indians",
+    "position": "CF",
+    "woba": ".323",
+    "estWoba": ".364",
+    "wobaDiff": "-0.041"
+  },
+  {
+    "name": "DJ LeMahieu",
+    "team": "Rockies",
+    "position": "2B",
+    "woba": ".323",
+    "estWoba": ".351",
+    "wobaDiff": "-0.028"
+  },
+  {
+    "name": "Austin Wynns",
+    "team": "Orioles",
+    "position": "C",
+    "woba": ".323",
+    "estWoba": ".312",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Christian Arroyo",
+    "team": "Rays",
+    "position": "3B",
+    "woba": ".323",
+    "estWoba": ".328",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Franchy Cordero",
+    "team": "Padres",
+    "position": "LF",
+    "woba": ".322",
+    "estWoba": ".362",
+    "wobaDiff": "-0.040"
+  },
+  {
+    "name": "Adam Jones",
+    "team": "Orioles",
+    "position": "CF",
+    "woba": ".322",
+    "estWoba": ".327",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Starlin Castro",
+    "team": "Marlins",
+    "position": "2B",
+    "woba": ".322",
+    "estWoba": ".329",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "Jose Peraza",
+    "team": "Reds",
+    "position": "SS",
+    "woba": ".321",
+    "estWoba": ".297",
+    "wobaDiff": "0.024"
+  },
+  {
+    "name": "Jason Heyward",
+    "team": "Cubs",
+    "position": "RF",
+    "woba": ".321",
+    "estWoba": ".339",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Ronald Guzman",
+    "team": "Rangers",
+    "position": "1B",
+    "woba": ".320",
+    "estWoba": ".307",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "Joe Mauer",
+    "team": "Twins",
+    "position": "1B",
+    "woba": ".320",
+    "estWoba": ".387",
+    "wobaDiff": "-0.067"
+  },
+  {
+    "name": "Kevin Plawecki",
+    "team": "Mets",
+    "position": "C",
+    "woba": ".320",
+    "estWoba": ".312",
+    "wobaDiff": "0.008"
+  },
+  {
+    "name": "Tyler Flowers",
+    "team": "Braves",
+    "position": "C",
+    "woba": ".319",
+    "estWoba": ".370",
+    "wobaDiff": "-0.051"
+  },
+  {
+    "name": "Yonder Alonso",
+    "team": "Indians",
+    "position": "1B",
+    "woba": ".319",
+    "estWoba": ".366",
+    "wobaDiff": "-0.047"
+  },
+  {
+    "name": "Max Stassi",
+    "team": "Astros",
+    "position": "C",
+    "woba": ".319",
+    "estWoba": ".327",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Tommy Pham",
+    "team": "Rays",
+    "position": "CF",
+    "woba": ".319",
+    "estWoba": ".374",
+    "wobaDiff": "-0.055"
+  },
+  {
+    "name": "German Marquez",
+    "team": "Rockies",
+    "position": "P",
+    "woba": ".319",
+    "estWoba": ".335",
+    "wobaDiff": "-0.016"
+  },
+  {
+    "name": "Alen Hanson",
+    "team": "Giants",
+    "position": "2B",
+    "woba": ".318",
+    "estWoba": ".244",
+    "wobaDiff": "0.074"
+  },
+  {
+    "name": "Ian Desmond",
+    "team": "Rockies",
+    "position": "1B",
+    "woba": ".318",
+    "estWoba": ".313",
+    "wobaDiff": "0.005"
+  },
+  {
+    "name": "Jose Bautista",
+    "team": "Mets",
+    "position": "RF",
+    "woba": ".318",
+    "estWoba": ".342",
+    "wobaDiff": "-0.024"
+  },
+  {
+    "name": "Ketel Marte",
+    "team": "Diamondbacks",
+    "position": "2B",
+    "woba": ".318",
+    "estWoba": ".326",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Matt Duffy",
+    "team": "Rays",
+    "position": "3B",
+    "woba": ".318",
+    "estWoba": ".313",
+    "wobaDiff": "0.005"
+  },
+  {
+    "name": "Brandon Crawford",
+    "team": "Giants",
+    "position": "SS",
+    "woba": ".317",
+    "estWoba": ".325",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Erik Gonzalez",
+    "team": "Indians",
+    "position": "2B",
+    "woba": ".317",
+    "estWoba": ".301",
+    "wobaDiff": "0.016"
+  },
+  {
+    "name": "Nick Ahmed",
+    "team": "Diamondbacks",
+    "position": "SS",
+    "woba": ".316",
+    "estWoba": ".313",
+    "wobaDiff": "0.003"
+  },
+  {
+    "name": "Austin Romine",
+    "team": "Yankees",
+    "position": "C",
+    "woba": ".316",
+    "estWoba": ".311",
+    "wobaDiff": "0.005"
+  },
+  {
+    "name": "Jeimer Candelario",
+    "team": "Tigers",
+    "position": "3B",
+    "woba": ".316",
+    "estWoba": ".305",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Aledmys Diaz",
+    "team": "Blue Jays",
+    "position": "SS",
+    "woba": ".316",
+    "estWoba": ".342",
+    "wobaDiff": "-0.026"
+  },
+  {
+    "name": "Chris Herrmann",
+    "team": "Mariners",
+    "position": "C",
+    "woba": ".316",
+    "estWoba": ".335",
+    "wobaDiff": "-0.019"
+  },
+  {
+    "name": "Brian Dozier",
+    "team": "Dodgers",
+    "position": "2B",
+    "woba": ".316",
+    "estWoba": ".308",
+    "wobaDiff": "0.008"
+  },
+  {
+    "name": "Yan Gomes",
+    "team": "Indians",
+    "position": "C",
+    "woba": ".315",
+    "estWoba": ".331",
+    "wobaDiff": "-0.016"
+  },
+  {
+    "name": "Daniel Palka",
+    "team": "White Sox",
+    "position": "DH",
+    "woba": ".315",
+    "estWoba": ".327",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Marcell Ozuna",
+    "team": "Cardinals",
+    "position": "LF",
+    "woba": ".315",
+    "estWoba": ".361",
+    "wobaDiff": "-0.046"
+  },
+  {
+    "name": "Jim Adduci",
+    "team": "Tigers",
+    "position": "1B",
+    "woba": ".314",
+    "estWoba": ".278",
+    "wobaDiff": "0.036"
+  },
+  {
+    "name": "Enrique Hernandez",
+    "team": "Dodgers",
+    "position": "CF",
+    "woba": ".314",
+    "estWoba": ".336",
+    "wobaDiff": "-0.022"
+  },
+  {
+    "name": "Adrian Beltre",
+    "team": "Rangers",
+    "position": "3B",
+    "woba": ".314",
+    "estWoba": ".329",
+    "wobaDiff": "-0.015"
+  },
+  {
+    "name": "Franmil Reyes",
+    "team": "Padres",
+    "position": "RF",
+    "woba": ".314",
+    "estWoba": ".302",
+    "wobaDiff": "0.012"
+  },
+  {
+    "name": "Keon Broxton",
+    "team": "Brewers",
+    "position": "CF",
+    "woba": ".314",
+    "estWoba": ".297",
+    "wobaDiff": "0.017"
+  },
+  {
+    "name": "Preston Tucker",
+    "team": "Reds",
+    "position": "LF",
+    "woba": ".313",
+    "estWoba": ".297",
+    "wobaDiff": "0.016"
+  },
+  {
+    "name": "Marwin Gonzalez",
+    "team": "Astros",
+    "position": "LF",
+    "woba": ".313",
+    "estWoba": ".319",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Niko Goodrum",
+    "team": "Tigers",
+    "position": "2B",
+    "woba": ".313",
+    "estWoba": ".321",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Randal Grichuk",
+    "team": "Blue Jays",
+    "position": "RF",
+    "woba": ".313",
+    "estWoba": ".342",
+    "wobaDiff": "-0.029"
+  },
+  {
+    "name": "Brett Gardner",
+    "team": "Yankees",
+    "position": "LF",
+    "woba": ".313",
+    "estWoba": ".298",
+    "wobaDiff": "0.015"
+  },
+  {
+    "name": "Russell Martin",
+    "team": "Blue Jays",
+    "position": "C",
+    "woba": ".313",
+    "estWoba": ".327",
+    "wobaDiff": "-0.014"
+  },
+  {
+    "name": "Tyler Saladino",
+    "team": "Brewers",
+    "position": "SS",
+    "woba": ".313",
+    "estWoba": ".332",
+    "wobaDiff": "-0.019"
+  },
+  {
+    "name": "Pablo Sandoval",
+    "team": "Giants",
+    "position": "3B",
+    "woba": ".312",
+    "estWoba": ".317",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Gerardo Parra",
+    "team": "Rockies",
+    "position": "LF",
+    "woba": ".312",
+    "estWoba": ".320",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Brad Miller",
+    "team": "Brewers",
+    "position": "1B",
+    "woba": ".312",
+    "estWoba": ".320",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Brock Holt",
+    "team": "Red Sox",
+    "position": "2B",
+    "woba": ".312",
+    "estWoba": ".322",
+    "wobaDiff": "-0.010"
+  },
+  {
+    "name": "Nick Hundley",
+    "team": "Giants",
+    "position": "C",
+    "woba": ".312",
+    "estWoba": ".344",
+    "wobaDiff": "-0.032"
+  },
+  {
+    "name": "Dilson Herrera",
+    "team": "Reds",
+    "position": "2B",
+    "woba": ".312",
+    "estWoba": ".321",
+    "wobaDiff": "-0.009"
+  },
+  {
+    "name": "Todd Frazier",
+    "team": "Mets",
+    "position": "3B",
+    "woba": ".312",
+    "estWoba": ".328",
+    "wobaDiff": "-0.016"
+  },
+  {
+    "name": "Josh Reddick",
+    "team": "Astros",
+    "position": "RF",
+    "woba": ".311",
+    "estWoba": ".313",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Elvis Andrus",
+    "team": "Rangers",
+    "position": "SS",
+    "woba": ".311",
+    "estWoba": ".302",
+    "wobaDiff": "0.009"
+  },
+  {
+    "name": "Eric Hosmer",
+    "team": "Padres",
+    "position": "1B",
+    "woba": ".311",
+    "estWoba": ".323",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Yuli Gurriel",
+    "team": "Astros",
+    "position": "1B",
+    "woba": ".311",
+    "estWoba": ".292",
+    "wobaDiff": "0.019"
+  },
+  {
+    "name": "John Hicks",
+    "team": "Tigers",
+    "position": "1B",
+    "woba": ".311",
+    "estWoba": ".299",
+    "wobaDiff": "0.012"
+  },
+  {
+    "name": "Jon Jay",
+    "team": "Diamondbacks",
+    "position": "RF",
+    "woba": ".311",
+    "estWoba": ".315",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Mason Williams",
+    "team": "Reds",
+    "position": "RF",
+    "woba": ".310",
+    "estWoba": ".280",
+    "wobaDiff": "0.030"
+  },
+  {
+    "name": "Ryon Healy",
+    "team": "Mariners",
+    "position": "1B",
+    "woba": ".310",
+    "estWoba": ".345",
+    "wobaDiff": "-0.035"
+  },
+  {
+    "name": "Danny Valencia",
+    "team": "Orioles",
+    "position": "3B",
+    "woba": ".310",
+    "estWoba": ".368",
+    "wobaDiff": "-0.058"
+  },
+  {
+    "name": "Marcus Semien",
+    "team": "Athletics",
+    "position": "SS",
+    "woba": ".310",
+    "estWoba": ".316",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Willie Calhoun",
+    "team": "Rangers",
+    "position": "LF",
+    "woba": ".310",
+    "estWoba": ".275",
+    "wobaDiff": "0.035"
+  },
+  {
+    "name": "Colin Moran",
+    "team": "Pirates",
+    "position": "3B",
+    "woba": ".310",
+    "estWoba": ".341",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Steven Souza Jr.",
+    "team": "Diamondbacks",
+    "position": "RF",
+    "woba": ".309",
+    "estWoba": ".318",
+    "wobaDiff": "-0.009"
+  },
+  {
+    "name": "Daniel Vogelbach",
+    "team": "Mariners",
+    "position": "1B",
+    "woba": ".309",
+    "estWoba": ".369",
+    "wobaDiff": "-0.060"
+  },
+  {
+    "name": "Ryan McMahon",
+    "team": "Rockies",
+    "position": "1B",
+    "woba": ".309",
+    "estWoba": ".311",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Jonathan Villar",
+    "team": "Orioles",
+    "position": "2B",
+    "woba": ".309",
+    "estWoba": ".288",
+    "wobaDiff": "0.021"
+  },
+  {
+    "name": "Jordy Mercer",
+    "team": "Pirates",
+    "position": "SS",
+    "woba": ".309",
+    "estWoba": ".331",
+    "wobaDiff": "-0.022"
+  },
+  {
+    "name": "Hanley Ramirez",
+    "team": "Red Sox",
+    "position": "1B",
+    "woba": ".309",
+    "estWoba": ".340",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Austin Jackson",
+    "team": "Mets",
+    "position": "CF",
+    "woba": ".309",
+    "estWoba": ".276",
+    "wobaDiff": "0.033"
+  },
+  {
+    "name": "Tucker Barnhart",
+    "team": "Reds",
+    "position": "C",
+    "woba": ".309",
+    "estWoba": ".332",
+    "wobaDiff": "-0.023"
+  },
+  {
+    "name": "Eric Young Jr.",
+    "team": "Angels",
+    "position": "CF",
+    "woba": ".308",
+    "estWoba": ".273",
+    "wobaDiff": "0.035"
+  },
+  {
+    "name": "Robbie Grossman",
+    "team": "Twins",
+    "position": "RF",
+    "woba": ".308",
+    "estWoba": ".307",
+    "wobaDiff": "0.001"
+  },
+  {
+    "name": "Renato Nunez",
+    "team": "Orioles",
+    "position": "3B",
+    "woba": ".308",
+    "estWoba": ".307",
+    "wobaDiff": "0.001"
+  },
+  {
+    "name": "Hernan Perez",
+    "team": "Brewers",
+    "position": "2B",
+    "woba": ".307",
+    "estWoba": ".310",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Rafael Devers",
+    "team": "Red Sox",
+    "position": "3B",
+    "woba": ".307",
+    "estWoba": ".313",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Ian Kinsler",
+    "team": "Red Sox",
+    "position": "2B",
+    "woba": ".307",
+    "estWoba": ".321",
+    "wobaDiff": "-0.014"
+  },
+  {
+    "name": "David Fletcher",
+    "team": "Angels",
+    "position": "3B",
+    "woba": ".307",
+    "estWoba": ".300",
+    "wobaDiff": "0.007"
+  },
+  {
+    "name": "Isiah Kiner-Falefa",
+    "team": "Rangers",
+    "position": "3B",
+    "woba": ".307",
+    "estWoba": ".289",
+    "wobaDiff": "0.018"
+  },
+  {
+    "name": "Kolten Wong",
+    "team": "Cardinals",
+    "position": "2B",
+    "woba": ".307",
+    "estWoba": ".288",
+    "wobaDiff": "0.019"
+  },
+  {
+    "name": "Willy Adames",
+    "team": "Rays",
+    "position": "SS",
+    "woba": ".307",
+    "estWoba": ".293",
+    "wobaDiff": "0.014"
+  },
+  {
+    "name": "Cory Spangenberg",
+    "team": "Padres",
+    "position": "3B",
+    "woba": ".306",
+    "estWoba": ".302",
+    "wobaDiff": "0.004"
+  },
+  {
+    "name": "Joey Rickard",
+    "team": "Orioles",
+    "position": "RF",
+    "woba": ".306",
+    "estWoba": ".297",
+    "wobaDiff": "0.009"
+  },
+  {
+    "name": "Michael Perez",
+    "team": "Rays",
+    "position": "C",
+    "woba": ".306",
+    "estWoba": ".296",
+    "wobaDiff": "0.010"
+  },
+  {
+    "name": "Miguel Sano",
+    "team": "Twins",
+    "position": "3B",
+    "woba": ".306",
+    "estWoba": ".283",
+    "wobaDiff": "0.023"
+  },
+  {
+    "name": "Chris Iannetta",
+    "team": "Rockies",
+    "position": "C",
+    "woba": ".305",
+    "estWoba": ".342",
+    "wobaDiff": "-0.037"
+  },
+  {
+    "name": "Gorkys Hernandez",
+    "team": "Giants",
+    "position": "CF",
+    "woba": ".305",
+    "estWoba": ".317",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Albert Pujols",
+    "team": "Angels",
+    "position": "1B",
+    "woba": ".305",
+    "estWoba": ".355",
+    "wobaDiff": "-0.050"
+  },
+  {
+    "name": "Jose Iglesias",
+    "team": "Tigers",
+    "position": "SS",
+    "woba": ".304",
+    "estWoba": ".286",
+    "wobaDiff": "0.018"
+  },
+  {
+    "name": "Tim Anderson",
+    "team": "White Sox",
+    "position": "SS",
+    "woba": ".304",
+    "estWoba": ".286",
+    "wobaDiff": "0.018"
+  },
+  {
+    "name": "Yolmer Sanchez",
+    "team": "White Sox",
+    "position": "3B",
+    "woba": ".304",
+    "estWoba": ".298",
+    "wobaDiff": "0.006"
+  },
+  {
+    "name": "Leury Garcia",
+    "team": "White Sox",
+    "position": "LF",
+    "woba": ".304",
+    "estWoba": ".286",
+    "wobaDiff": "0.018"
+  },
+  {
+    "name": "Pedro Alvarez",
+    "team": "Orioles",
+    "position": "DH",
+    "woba": ".304",
+    "estWoba": ".340",
+    "wobaDiff": "-0.036"
+  },
+  {
+    "name": "Kevin Pillar",
+    "team": "Blue Jays",
+    "position": "CF",
+    "woba": ".304",
+    "estWoba": ".326",
+    "wobaDiff": "-0.022"
+  },
+  {
+    "name": "Avisail Garcia",
+    "team": "White Sox",
+    "position": "RF",
+    "woba": ".303",
+    "estWoba": ".335",
+    "wobaDiff": "-0.032"
+  },
+  {
+    "name": "Brent Suter",
+    "team": "Brewers",
+    "position": "P",
+    "woba": ".303",
+    "estWoba": ".321",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Austin Hedges",
+    "team": "Padres",
+    "position": "C",
+    "woba": ".303",
+    "estWoba": ".280",
+    "wobaDiff": "0.023"
+  },
+  {
+    "name": "Gary Sanchez",
+    "team": "Yankees",
+    "position": "C",
+    "woba": ".303",
+    "estWoba": ".361",
+    "wobaDiff": "-0.058"
+  },
+  {
+    "name": "Lucas Duda",
+    "team": "Royals",
+    "position": "1B",
+    "woba": ".303",
+    "estWoba": ".333",
+    "wobaDiff": "-0.030"
+  },
+  {
+    "name": "Evan Longoria",
+    "team": "Giants",
+    "position": "3B",
+    "woba": ".302",
+    "estWoba": ".335",
+    "wobaDiff": "-0.033"
+  },
+  {
+    "name": "Jackie Bradley Jr.",
+    "team": "Red Sox",
+    "position": "CF",
+    "woba": ".302",
+    "estWoba": ".355",
+    "wobaDiff": "-0.053"
+  },
+  {
+    "name": "Yoan Moncada",
+    "team": "White Sox",
+    "position": "2B",
+    "woba": ".302",
+    "estWoba": ".307",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Addison Russell",
+    "team": "Cubs",
+    "position": "SS",
+    "woba": ".301",
+    "estWoba": ".295",
+    "wobaDiff": "0.006"
+  },
+  {
+    "name": "Andrew Stevenson",
+    "team": "Nationals",
+    "position": "LF",
+    "woba": ".300",
+    "estWoba": ".322",
+    "wobaDiff": "-0.022"
+  },
+  {
+    "name": "Ramon Laureano",
+    "team": "Athletics",
+    "position": "CF",
+    "woba": ".300",
+    "estWoba": ".311",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Matt Wieters",
+    "team": "Nationals",
+    "position": "C",
+    "woba": ".300",
+    "estWoba": ".323",
+    "wobaDiff": "-0.023"
+  },
+  {
+    "name": "Ehire Adrianza",
+    "team": "Twins",
+    "position": "SS",
+    "woba": ".299",
+    "estWoba": ".288",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Trey Mancini",
+    "team": "Orioles",
+    "position": "LF",
+    "woba": ".299",
+    "estWoba": ".346",
+    "wobaDiff": "-0.047"
+  },
+  {
+    "name": "Manny Pina",
+    "team": "Brewers",
+    "position": "C",
+    "woba": ".299",
+    "estWoba": ".322",
+    "wobaDiff": "-0.023"
+  },
+  {
+    "name": "Travis Jankowski",
+    "team": "Padres",
+    "position": "RF",
+    "woba": ".299",
+    "estWoba": ".277",
+    "wobaDiff": "0.022"
+  },
+  {
+    "name": "Greg Bird",
+    "team": "Yankees",
+    "position": "1B",
+    "woba": ".298",
+    "estWoba": ".319",
+    "wobaDiff": "-0.021"
+  },
+  {
+    "name": "Carlos Gomez",
+    "team": "Rays",
+    "position": "RF",
+    "woba": ".298",
+    "estWoba": ".304",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Jorge Alfaro",
+    "team": "Phillies",
+    "position": "C",
+    "woba": ".298",
+    "estWoba": ".297",
+    "wobaDiff": "0.001"
+  },
+  {
+    "name": "Mac Williamson",
+    "team": "Giants",
+    "position": "LF",
+    "woba": ".298",
+    "estWoba": ".305",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "Salvador Perez",
+    "team": "Royals",
+    "position": "C",
+    "woba": ".298",
+    "estWoba": ".347",
+    "wobaDiff": "-0.049"
+  },
+  {
+    "name": "Tommy La Stella",
+    "team": "Cubs",
+    "position": "2B",
+    "woba": ".297",
+    "estWoba": ".329",
+    "wobaDiff": "-0.032"
+  },
+  {
+    "name": "Kole Calhoun",
+    "team": "Angels",
+    "position": "RF",
+    "woba": ".297",
+    "estWoba": ".358",
+    "wobaDiff": "-0.061"
+  },
+  {
+    "name": "Matt Joyce",
+    "team": "Athletics",
+    "position": "LF",
+    "woba": ".297",
+    "estWoba": ".346",
+    "wobaDiff": "-0.049"
+  },
+  {
+    "name": "Max Scherzer",
+    "team": "Nationals",
+    "position": "P",
+    "woba": ".297",
+    "estWoba": ".249",
+    "wobaDiff": "0.048"
+  },
+  {
+    "name": "Jake Marisnick",
+    "team": "Astros",
+    "position": "CF",
+    "woba": ".297",
+    "estWoba": ".281",
+    "wobaDiff": "0.016"
+  },
+  {
+    "name": "Yangervis Solarte",
+    "team": "Blue Jays",
+    "position": "3B",
+    "woba": ".296",
+    "estWoba": ".330",
+    "wobaDiff": "-0.034"
+  },
+  {
+    "name": "Dansby Swanson",
+    "team": "Braves",
+    "position": "SS",
+    "woba": ".296",
+    "estWoba": ".283",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "Christian Walker",
+    "team": "Diamondbacks",
+    "position": "LF",
+    "woba": ".296",
+    "estWoba": ".274",
+    "wobaDiff": "0.022"
+  },
+  {
+    "name": "Jason Kipnis",
+    "team": "Indians",
+    "position": "2B",
+    "woba": ".295",
+    "estWoba": ".334",
+    "wobaDiff": "-0.039"
+  },
+  {
+    "name": "Alex Gordon",
+    "team": "Royals",
+    "position": "LF",
+    "woba": ".294",
+    "estWoba": ".354",
+    "wobaDiff": "-0.060"
+  },
+  {
+    "name": "Cameron Maybin",
+    "team": "Mariners",
+    "position": "CF",
+    "woba": ".294",
+    "estWoba": ".316",
+    "wobaDiff": "-0.022"
+  },
+  {
+    "name": "Devin Mesoraco",
+    "team": "Mets",
+    "position": "C",
+    "woba": ".294",
+    "estWoba": ".306",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Luke Maile",
+    "team": "Blue Jays",
+    "position": "C",
+    "woba": ".293",
+    "estWoba": ".300",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "Andrew Knapp",
+    "team": "Phillies",
+    "position": "C",
+    "woba": ".293",
+    "estWoba": ".320",
+    "wobaDiff": "-0.027"
+  },
+  {
+    "name": "Domingo Santana",
+    "team": "Brewers",
+    "position": "RF",
+    "woba": ".292",
+    "estWoba": ".308",
+    "wobaDiff": "-0.016"
+  },
+  {
+    "name": "Jonathan Schoop",
+    "team": "Brewers",
+    "position": "2B",
+    "woba": ".292",
+    "estWoba": ".278",
+    "wobaDiff": "0.014"
+  },
+  {
+    "name": "Kyle Seager",
+    "team": "Mariners",
+    "position": "3B",
+    "woba": ".292",
+    "estWoba": ".329",
+    "wobaDiff": "-0.037"
+  },
+  {
+    "name": "J.P. Crawford",
+    "team": "Phillies",
+    "position": "SS",
+    "woba": ".292",
+    "estWoba": ".310",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Michael A. Taylor",
+    "team": "Nationals",
+    "position": "CF",
+    "woba": ".291",
+    "estWoba": ".279",
+    "wobaDiff": "0.012"
+  },
+  {
+    "name": "Kyle Higashioka",
+    "team": "Yankees",
+    "position": "C",
+    "woba": ".291",
+    "estWoba": ".364",
+    "wobaDiff": "-0.073"
+  },
+  {
+    "name": "Chase Utley",
+    "team": "Dodgers",
+    "position": "2B",
+    "woba": ".291",
+    "estWoba": ".299",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Miguel Rojas",
+    "team": "Marlins",
+    "position": "SS",
+    "woba": ".290",
+    "estWoba": ".303",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Ender Inciarte",
+    "team": "Braves",
+    "position": "CF",
+    "woba": ".290",
+    "estWoba": ".292",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Jake Lamb",
+    "team": "Diamondbacks",
+    "position": "3B",
+    "woba": ".290",
+    "estWoba": ".327",
+    "wobaDiff": "-0.037"
+  },
+  {
+    "name": "Zack Cozart",
+    "team": "Angels",
+    "position": "3B",
+    "woba": ".289",
+    "estWoba": ".309",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Adalberto Mondesi",
+    "team": "Royals",
+    "position": "SS",
+    "woba": ".289",
+    "estWoba": ".302",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Josh Harrison",
+    "team": "Pirates",
+    "position": "2B",
+    "woba": ".289",
+    "estWoba": ".289",
+    "wobaDiff": "0.000"
+  },
+  {
+    "name": "Jorge Bonifacio",
+    "team": "Royals",
+    "position": "RF",
+    "woba": ".289",
+    "estWoba": ".303",
+    "wobaDiff": "-0.014"
+  },
+  {
+    "name": "Greg Garcia",
+    "team": "Cardinals",
+    "position": "SS",
+    "woba": ".288",
+    "estWoba": ".301",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "JT Riddle",
+    "team": "Marlins",
+    "position": "SS",
+    "woba": ".288",
+    "estWoba": ".312",
+    "wobaDiff": "-0.024"
+  },
+  {
+    "name": "Wilmer Difo",
+    "team": "Nationals",
+    "position": "2B",
+    "woba": ".288",
+    "estWoba": ".281",
+    "wobaDiff": "0.007"
+  },
+  {
+    "name": "Kevan Smith",
+    "team": "White Sox",
+    "position": "C",
+    "woba": ".288",
+    "estWoba": ".300",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Brandon Guyer",
+    "team": "Indians",
+    "position": "RF",
+    "woba": ".288",
+    "estWoba": ".297",
+    "wobaDiff": "-0.009"
+  },
+  {
+    "name": "Adrian Gonzalez",
+    "team": "Mets",
+    "position": "1B",
+    "woba": ".288",
+    "estWoba": ".345",
+    "wobaDiff": "-0.057"
+  },
+  {
+    "name": "Erik Kratz",
+    "team": "Brewers",
+    "position": "C",
+    "woba": ".288",
+    "estWoba": ".311",
+    "wobaDiff": "-0.023"
+  },
+  {
+    "name": "Adam Duvall",
+    "team": "Braves",
+    "position": "LF",
+    "woba": ".287",
+    "estWoba": ".334",
+    "wobaDiff": "-0.047"
+  },
+  {
+    "name": "Grayson Greiner",
+    "team": "Tigers",
+    "position": "C",
+    "woba": ".287",
+    "estWoba": ".304",
+    "wobaDiff": "-0.017"
+  },
+  {
+    "name": "Devon Travis",
+    "team": "Blue Jays",
+    "position": "2B",
+    "woba": ".287",
+    "estWoba": ".325",
+    "wobaDiff": "-0.038"
+  },
+  {
+    "name": "Neil Walker",
+    "team": "Yankees",
+    "position": "1B",
+    "woba": ".287",
+    "estWoba": ".337",
+    "wobaDiff": "-0.050"
+  },
+  {
+    "name": "Manuel Margot",
+    "team": "Padres",
+    "position": "CF",
+    "woba": ".286",
+    "estWoba": ".292",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Freddy Galvis",
+    "team": "Padres",
+    "position": "SS",
+    "woba": ".286",
+    "estWoba": ".286",
+    "wobaDiff": "0.000"
+  },
+  {
+    "name": "Josh Phegley",
+    "team": "Athletics",
+    "position": "C",
+    "woba": ".286",
+    "estWoba": ".231",
+    "wobaDiff": "0.055"
+  },
+  {
+    "name": "Ryan LaMarre",
+    "team": "White Sox",
+    "position": "CF",
+    "woba": ".286",
+    "estWoba": ".277",
+    "wobaDiff": "0.009"
+  },
+  {
+    "name": "Martin Maldonado",
+    "team": "Astros",
+    "position": "C",
+    "woba": ".286",
+    "estWoba": ".275",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Jose Pirela",
+    "team": "Padres",
+    "position": "2B",
+    "woba": ".285",
+    "estWoba": ".296",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Logan Forsythe",
+    "team": "Twins",
+    "position": "2B",
+    "woba": ".285",
+    "estWoba": ".286",
+    "wobaDiff": "-0.001"
+  },
+  {
+    "name": "Joe Panik",
+    "team": "Giants",
+    "position": "2B",
+    "woba": ".284",
+    "estWoba": ".338",
+    "wobaDiff": "-0.054"
+  },
+  {
+    "name": "Jace Peterson",
+    "team": "Orioles",
+    "position": "3B",
+    "woba": ".284",
+    "estWoba": ".303",
+    "wobaDiff": "-0.019"
+  },
+  {
+    "name": "Logan Morrison",
+    "team": "Twins",
+    "position": "1B",
+    "woba": ".284",
+    "estWoba": ".354",
+    "wobaDiff": "-0.070"
+  },
+  {
+    "name": "Eduardo Nunez",
+    "team": "Red Sox",
+    "position": "2B",
+    "woba": ".283",
+    "estWoba": ".281",
+    "wobaDiff": "0.002"
+  },
+  {
+    "name": "Tyler Naquin",
+    "team": "Indians",
+    "position": "RF",
+    "woba": ".282",
+    "estWoba": ".316",
+    "wobaDiff": "-0.034"
+  },
+  {
+    "name": "Charlie Tilson",
+    "team": "White Sox",
+    "position": "LF",
+    "woba": ".282",
+    "estWoba": ".249",
+    "wobaDiff": "0.033"
+  },
+  {
+    "name": "Steven Duggar",
+    "team": "Giants",
+    "position": "CF",
+    "woba": ".282",
+    "estWoba": ".235",
+    "wobaDiff": "0.047"
+  },
+  {
+    "name": "Alex Avila",
+    "team": "Diamondbacks",
+    "position": "C",
+    "woba": ".282",
+    "estWoba": ".339",
+    "wobaDiff": "-0.057"
+  },
+  {
+    "name": "Mike Zunino",
+    "team": "Mariners",
+    "position": "C",
+    "woba": ".281",
+    "estWoba": ".314",
+    "wobaDiff": "-0.033"
+  },
+  {
+    "name": "Amed Rosario",
+    "team": "Mets",
+    "position": "SS",
+    "woba": ".281",
+    "estWoba": ".289",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Victor Martinez",
+    "team": "Tigers",
+    "position": "DH",
+    "woba": ".280",
+    "estWoba": ".335",
+    "wobaDiff": "-0.055"
+  },
+  {
+    "name": "Alex Blandino",
+    "team": "Reds",
+    "position": "2B",
+    "woba": ".279",
+    "estWoba": ".282",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Gregor Blanco",
+    "team": "Giants",
+    "position": "LF",
+    "woba": ".279",
+    "estWoba": ".268",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Tim Beckham",
+    "team": "Orioles",
+    "position": "3B",
+    "woba": ".279",
+    "estWoba": ".291",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Max Moroff",
+    "team": "Pirates",
+    "position": "2B",
+    "woba": ".278",
+    "estWoba": ".302",
+    "wobaDiff": "-0.024"
+  },
+  {
+    "name": "Dee Gordon",
+    "team": "Mariners",
+    "position": "2B",
+    "woba": ".277",
+    "estWoba": ".263",
+    "wobaDiff": "0.014"
+  },
+  {
+    "name": "Rob Refsnyder",
+    "team": "Rays",
+    "position": "LF",
+    "woba": ".276",
+    "estWoba": ".333",
+    "wobaDiff": "-0.057"
+  },
+  {
+    "name": "Chance Sisco",
+    "team": "Orioles",
+    "position": "C",
+    "woba": ".276",
+    "estWoba": ".296",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Billy Hamilton",
+    "team": "Reds",
+    "position": "CF",
+    "woba": ".276",
+    "estWoba": ".253",
+    "wobaDiff": "0.023"
+  },
+  {
+    "name": "Taylor Ward",
+    "team": "Angels",
+    "position": "3B",
+    "woba": ".273",
+    "estWoba": ".263",
+    "wobaDiff": "0.010"
+  },
+  {
+    "name": "Victor Caratini",
+    "team": "Cubs",
+    "position": "C",
+    "woba": ".273",
+    "estWoba": ".292",
+    "wobaDiff": "-0.019"
+  },
+  {
+    "name": "Austin Barnes",
+    "team": "Dodgers",
+    "position": "C",
+    "woba": ".273",
+    "estWoba": ".281",
+    "wobaDiff": "-0.008"
+  },
+  {
+    "name": "Jonathan Lucroy",
+    "team": "Athletics",
+    "position": "C",
+    "woba": ".273",
+    "estWoba": ".313",
+    "wobaDiff": "-0.040"
+  },
+  {
+    "name": "Adeiny Hechavarria",
+    "team": "Pirates",
+    "position": "SS",
+    "woba": ".273",
+    "estWoba": ".293",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Tom Murphy",
+    "team": "Rockies",
+    "position": "C",
+    "woba": ".273",
+    "estWoba": ".224",
+    "wobaDiff": "0.049"
+  },
+  {
+    "name": "John Ryan Murphy",
+    "team": "Diamondbacks",
+    "position": "C",
+    "woba": ".272",
+    "estWoba": ".286",
+    "wobaDiff": "-0.014"
+  },
+  {
+    "name": "Brian McCann",
+    "team": "Astros",
+    "position": "C",
+    "woba": ".271",
+    "estWoba": ".297",
+    "wobaDiff": "-0.026"
+  },
+  {
+    "name": "Craig Gentry",
+    "team": "Orioles",
+    "position": "RF",
+    "woba": ".271",
+    "estWoba": ".257",
+    "wobaDiff": "0.014"
+  },
+  {
+    "name": "Greg Allen",
+    "team": "Indians",
+    "position": "CF",
+    "woba": ".271",
+    "estWoba": ".280",
+    "wobaDiff": "-0.009"
+  },
+  {
+    "name": "Aaron Altherr",
+    "team": "Phillies",
+    "position": "RF",
+    "woba": ".271",
+    "estWoba": ".308",
+    "wobaDiff": "-0.037"
+  },
+  {
+    "name": "Jose Fernandez",
+    "team": "Angels",
+    "position": "1B",
+    "woba": ".271",
+    "estWoba": ".335",
+    "wobaDiff": "-0.064"
+  },
+  {
+    "name": "Dustin Fowler",
+    "team": "Athletics",
+    "position": "CF",
+    "woba": ".271",
+    "estWoba": ".310",
+    "wobaDiff": "-0.039"
+  },
+  {
+    "name": "Guillermo Heredia",
+    "team": "Mariners",
+    "position": "CF",
+    "woba": ".271",
+    "estWoba": ".302",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Jay Bruce",
+    "team": "Mets",
+    "position": "RF",
+    "woba": ".270",
+    "estWoba": ".339",
+    "wobaDiff": "-0.069"
+  },
+  {
+    "name": "Dan Straily",
+    "team": "Marlins",
+    "position": "P",
+    "woba": ".270",
+    "estWoba": ".247",
+    "wobaDiff": "0.023"
+  },
+  {
+    "name": "Gio Urshela",
+    "team": "Blue Jays",
+    "position": "SS",
+    "woba": ".270",
+    "estWoba": ".259",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Kyle Farmer",
+    "team": "Dodgers",
+    "position": "3B",
+    "woba": ".270",
+    "estWoba": ".309",
+    "wobaDiff": "-0.039"
+  },
+  {
+    "name": "Jefry Marte",
+    "team": "Angels",
+    "position": "1B",
+    "woba": ".270",
+    "estWoba": ".290",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Bradley Zimmer",
+    "team": "Indians",
+    "position": "CF",
+    "woba": ".270",
+    "estWoba": ".286",
+    "wobaDiff": "-0.016"
+  },
+  {
+    "name": "Hunter Dozier",
+    "team": "Royals",
+    "position": "1B",
+    "woba": ".269",
+    "estWoba": ".289",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Jose Reyes",
+    "team": "Mets",
+    "position": "3B",
+    "woba": ".269",
+    "estWoba": ".281",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Chris Young",
+    "team": "Angels",
+    "position": "RF",
+    "woba": ".269",
+    "estWoba": ".273",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "JaCoby Jones",
+    "team": "Tigers",
+    "position": "LF",
+    "woba": ".269",
+    "estWoba": ".288",
+    "wobaDiff": "-0.019"
+  },
+  {
+    "name": "Adam Engel",
+    "team": "White Sox",
+    "position": "CF",
+    "woba": ".267",
+    "estWoba": ".249",
+    "wobaDiff": "0.018"
+  },
+  {
+    "name": "Rajai Davis",
+    "team": "Indians",
+    "position": "CF",
+    "woba": ".267",
+    "estWoba": ".269",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Luke Voit",
+    "team": "Yankees",
+    "position": "1B",
+    "woba": ".266",
+    "estWoba": ".291",
+    "wobaDiff": "-0.025"
+  },
+  {
+    "name": "Noel Cuevas",
+    "team": "Rockies",
+    "position": "RF",
+    "woba": ".265",
+    "estWoba": ".257",
+    "wobaDiff": "0.008"
+  },
+  {
+    "name": "Jordan Luplow",
+    "team": "Pirates",
+    "position": "LF",
+    "woba": ".265",
+    "estWoba": ".306",
+    "wobaDiff": "-0.041"
+  },
+  {
+    "name": "Delino DeShields",
+    "team": "Rangers",
+    "position": "CF",
+    "woba": ".265",
+    "estWoba": ".248",
+    "wobaDiff": "0.017"
+  },
+  {
+    "name": "Rosell Herrera",
+    "team": "Royals",
+    "position": "RF",
+    "woba": ".264",
+    "estWoba": ".273",
+    "wobaDiff": "-0.009"
+  },
+  {
+    "name": "Sean Rodriguez",
+    "team": "Pirates",
+    "position": "2B",
+    "woba": ".264",
+    "estWoba": ".273",
+    "wobaDiff": "-0.009"
+  },
+  {
+    "name": "Garrett Cooper",
+    "team": "Marlins",
+    "position": "1B",
+    "woba": ".263",
+    "estWoba": ".264",
+    "wobaDiff": "-0.001"
+  },
+  {
+    "name": "Clayton Kershaw",
+    "team": "Dodgers",
+    "position": "P",
+    "woba": ".263",
+    "estWoba": ".246",
+    "wobaDiff": "0.017"
+  },
+  {
+    "name": "Cheslor Cuthbert",
+    "team": "Royals",
+    "position": "3B",
+    "woba": ".263",
+    "estWoba": ".304",
+    "wobaDiff": "-0.041"
+  },
+  {
+    "name": "Carlos Martinez",
+    "team": "Cardinals",
+    "position": "P",
+    "woba": ".263",
+    "estWoba": ".250",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "James McCann",
+    "team": "Tigers",
+    "position": "C",
+    "woba": ".262",
+    "estWoba": ".305",
+    "wobaDiff": "-0.043"
+  },
+  {
+    "name": "Martin Prado",
+    "team": "Marlins",
+    "position": "3B",
+    "woba": ".262",
+    "estWoba": ".294",
+    "wobaDiff": "-0.032"
+  },
+  {
+    "name": "Brett Phillips",
+    "team": "Royals",
+    "position": "CF",
+    "woba": ".262",
+    "estWoba": ".242",
+    "wobaDiff": "0.020"
+  },
+  {
+    "name": "Zack Greinke",
+    "team": "Diamondbacks",
+    "position": "P",
+    "woba": ".261",
+    "estWoba": ".260",
+    "wobaDiff": "0.001"
+  },
+  {
+    "name": "Dexter Fowler",
+    "team": "Cardinals",
+    "position": "RF",
+    "woba": ".261",
+    "estWoba": ".284",
+    "wobaDiff": "-0.023"
+  },
+  {
+    "name": "Scott Kingery",
+    "team": "Phillies",
+    "position": "SS",
+    "woba": ".261",
+    "estWoba": ".282",
+    "wobaDiff": "-0.021"
+  },
+  {
+    "name": "Ryan Flaherty",
+    "team": "Braves",
+    "position": "3B",
+    "woba": ".260",
+    "estWoba": ".276",
+    "wobaDiff": "-0.016"
+  },
+  {
+    "name": "Caleb Joseph",
+    "team": "Orioles",
+    "position": "C",
+    "woba": ".260",
+    "estWoba": ".272",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Carlos Asuaje",
+    "team": "Padres",
+    "position": "2B",
+    "woba": ".259",
+    "estWoba": ".307",
+    "wobaDiff": "-0.048"
+  },
+  {
+    "name": "Peter Bourjos",
+    "team": "Braves",
+    "position": "CF",
+    "woba": ".259",
+    "estWoba": ".242",
+    "wobaDiff": "0.017"
+  },
+  {
+    "name": "Danny Santana",
+    "team": "Braves",
+    "position": "LF",
+    "woba": ".259",
+    "estWoba": ".333",
+    "wobaDiff": "-0.074"
+  },
+  {
+    "name": "Dominic Smith",
+    "team": "Mets",
+    "position": "1B",
+    "woba": ".257",
+    "estWoba": ".254",
+    "wobaDiff": "0.003"
+  },
+  {
+    "name": "Kelby Tomlinson",
+    "team": "Giants",
+    "position": "2B",
+    "woba": ".257",
+    "estWoba": ".262",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Jeff Mathis",
+    "team": "Diamondbacks",
+    "position": "C",
+    "woba": ".255",
+    "estWoba": ".274",
+    "wobaDiff": "-0.019"
+  },
+  {
+    "name": "Johnny Field",
+    "team": "Twins",
+    "position": "LF",
+    "woba": ".254",
+    "estWoba": ".247",
+    "wobaDiff": "0.007"
+  },
+  {
+    "name": "Sandy Leon",
+    "team": "Red Sox",
+    "position": "C",
+    "woba": ".254",
+    "estWoba": ".274",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Ryan Rua",
+    "team": "Rangers",
+    "position": "LF",
+    "woba": ".253",
+    "estWoba": ".273",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Luis Valbuena",
+    "team": "Angels",
+    "position": "3B",
+    "woba": ".253",
+    "estWoba": ".270",
+    "wobaDiff": "-0.017"
+  },
+  {
+    "name": "Derek Fisher",
+    "team": "Astros",
+    "position": "LF",
+    "woba": ".252",
+    "estWoba": ".258",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Kevin Kiermaier",
+    "team": "Rays",
+    "position": "CF",
+    "woba": ".251",
+    "estWoba": ".255",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Jesmuel Valentin",
+    "team": "Phillies",
+    "position": "3B",
+    "woba": ".250",
+    "estWoba": ".252",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Blake Swihart",
+    "team": "Red Sox",
+    "position": "C",
+    "woba": ".250",
+    "estWoba": ".287",
+    "wobaDiff": "-0.037"
+  },
+  {
+    "name": "Tony Wolters",
+    "team": "Rockies",
+    "position": "C",
+    "woba": ".249",
+    "estWoba": ".282",
+    "wobaDiff": "-0.033"
+  },
+  {
+    "name": "Drew Robinson",
+    "team": "Rangers",
+    "position": "CF",
+    "woba": ".249",
+    "estWoba": ".256",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "David Freitas",
+    "team": "Mariners",
+    "position": "C",
+    "woba": ".248",
+    "estWoba": ".322",
+    "wobaDiff": "-0.074"
+  },
+  {
+    "name": "Alcides Escobar",
+    "team": "Royals",
+    "position": "SS",
+    "woba": ".247",
+    "estWoba": ".278",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Brandon Dixon",
+    "team": "Reds",
+    "position": "1B",
+    "woba": ".246",
+    "estWoba": ".258",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Ryan Goins",
+    "team": "Royals",
+    "position": "2B",
+    "woba": ".246",
+    "estWoba": ".235",
+    "wobaDiff": "0.011"
+  },
+  {
+    "name": "Abraham Almonte",
+    "team": "Royals",
+    "position": "CF",
+    "woba": ".245",
+    "estWoba": ".327",
+    "wobaDiff": "-0.082"
+  },
+  {
+    "name": "Dixon Machado",
+    "team": "Tigers",
+    "position": "2B",
+    "woba": ".245",
+    "estWoba": ".298",
+    "wobaDiff": "-0.053"
+  },
+  {
+    "name": "Jett Bandy",
+    "team": "Brewers",
+    "position": "C",
+    "woba": ".245",
+    "estWoba": ".260",
+    "wobaDiff": "-0.015"
+  },
+  {
+    "name": "Jarrod Dyson",
+    "team": "Diamondbacks",
+    "position": "CF",
+    "woba": ".245",
+    "estWoba": ".279",
+    "wobaDiff": "-0.034"
+  },
+  {
+    "name": "Lewis Brinson",
+    "team": "Marlins",
+    "position": "CF",
+    "woba": ".244",
+    "estWoba": ".299",
+    "wobaDiff": "-0.055"
+  },
+  {
+    "name": "Chris Owings",
+    "team": "Diamondbacks",
+    "position": "RF",
+    "woba": ".243",
+    "estWoba": ".292",
+    "wobaDiff": "-0.049"
+  },
+  {
+    "name": "Gordon Beckham",
+    "team": "Mariners",
+    "position": "2B",
+    "woba": ".243",
+    "estWoba": ".284",
+    "wobaDiff": "-0.041"
+  },
+  {
+    "name": "Drew Butera",
+    "team": "Royals",
+    "position": "C",
+    "woba": ".242",
+    "estWoba": ".257",
+    "wobaDiff": "-0.015"
+  },
+  {
+    "name": "Christian Vazquez",
+    "team": "Red Sox",
+    "position": "C",
+    "woba": ".242",
+    "estWoba": ".290",
+    "wobaDiff": "-0.048"
+  },
+  {
+    "name": "Spencer Kieboom",
+    "team": "Nationals",
+    "position": "C",
+    "woba": ".242",
+    "estWoba": ".282",
+    "wobaDiff": "-0.040"
+  },
+  {
+    "name": "Luis Guillorme",
+    "team": "Mets",
+    "position": "3B",
+    "woba": ".242",
+    "estWoba": ".350",
+    "wobaDiff": "-0.108"
+  },
+  {
+    "name": "Anthony Santander",
+    "team": "Orioles",
+    "position": "RF",
+    "woba": ".242",
+    "estWoba": ".273",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Matt Szczur",
+    "team": "Padres",
+    "position": "LF",
+    "woba": ".242",
+    "estWoba": ".227",
+    "wobaDiff": "0.015"
+  },
+  {
+    "name": "Chris Davis",
+    "team": "Orioles",
+    "position": "1B",
+    "woba": ".241",
+    "estWoba": ".291",
+    "wobaDiff": "-0.050"
+  },
+  {
+    "name": "Mikie Mahtook",
+    "team": "Tigers",
+    "position": "LF",
+    "woba": ".239",
+    "estWoba": ".261",
+    "wobaDiff": "-0.022"
+  },
+  {
+    "name": "Tyler Wade",
+    "team": "Yankees",
+    "position": "2B",
+    "woba": ".239",
+    "estWoba": ".221",
+    "wobaDiff": "0.018"
+  },
+  {
+    "name": "Hunter Pence",
+    "team": "Giants",
+    "position": "LF",
+    "woba": ".238",
+    "estWoba": ".251",
+    "wobaDiff": "-0.013"
+  },
+  {
+    "name": "Brandon Drury",
+    "team": "Blue Jays",
+    "position": "3B",
+    "woba": ".237",
+    "estWoba": ".325",
+    "wobaDiff": "-0.088"
+  },
+  {
+    "name": "Yadiel Rivera",
+    "team": "Marlins",
+    "position": "3B",
+    "woba": ".236",
+    "estWoba": ".262",
+    "wobaDiff": "-0.026"
+  },
+  {
+    "name": "Raffy Lopez",
+    "team": "Padres",
+    "position": "C",
+    "woba": ".236",
+    "estWoba": ".267",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Jose Lobaton",
+    "team": "Mets",
+    "position": "C",
+    "woba": ".234",
+    "estWoba": ".314",
+    "wobaDiff": "-0.080"
+  },
+  {
+    "name": "Orlando Arcia",
+    "team": "Brewers",
+    "position": "SS",
+    "woba": ".233",
+    "estWoba": ".236",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Cam Gallagher",
+    "team": "Royals",
+    "position": "C",
+    "woba": ".233",
+    "estWoba": ".307",
+    "wobaDiff": "-0.074"
+  },
+  {
+    "name": "Tanner Roark",
+    "team": "Nationals",
+    "position": "P",
+    "woba": ".232",
+    "estWoba": ".203",
+    "wobaDiff": "0.029"
+  },
+  {
+    "name": "Jason Castro",
+    "team": "Twins",
+    "position": "C",
+    "woba": ".231",
+    "estWoba": ".281",
+    "wobaDiff": "-0.050"
+  },
+  {
+    "name": "Bobby Wilson",
+    "team": "Twins",
+    "position": "C",
+    "woba": ".230",
+    "estWoba": ".246",
+    "wobaDiff": "-0.016"
+  },
+  {
+    "name": "Jose Osuna",
+    "team": "Pirates",
+    "position": "1B",
+    "woba": ".229",
+    "estWoba": ".269",
+    "wobaDiff": "-0.040"
+  },
+  {
+    "name": "Julio Teheran",
+    "team": "Braves",
+    "position": "P",
+    "woba": ".229",
+    "estWoba": ".278",
+    "wobaDiff": "-0.049"
+  },
+  {
+    "name": "Tzu-Wei Lin",
+    "team": "Red Sox",
+    "position": "SS",
+    "woba": ".229",
+    "estWoba": ".305",
+    "wobaDiff": "-0.076"
+  },
+  {
+    "name": "Nate Orf",
+    "team": "Brewers",
+    "position": "2B",
+    "woba": ".228",
+    "estWoba": ".246",
+    "wobaDiff": "-0.018"
+  },
+  {
+    "name": "Tomas Telis",
+    "team": "Marlins",
+    "position": "DH",
+    "woba": ".227",
+    "estWoba": ".209",
+    "wobaDiff": "0.018"
+  },
+  {
+    "name": "Tim Federowicz",
+    "team": "Astros",
+    "position": "C",
+    "woba": ".227",
+    "estWoba": ".224",
+    "wobaDiff": "0.003"
+  },
+  {
+    "name": "Victor Reyes",
+    "team": "Tigers",
+    "position": "LF",
+    "woba": ".227",
+    "estWoba": ".265",
+    "wobaDiff": "-0.038"
+  },
+  {
+    "name": "Pedro Severino",
+    "team": "Nationals",
+    "position": "C",
+    "woba": ".225",
+    "estWoba": ".254",
+    "wobaDiff": "-0.029"
+  },
+  {
+    "name": "Bryan Holaday",
+    "team": "Marlins",
+    "position": "C",
+    "woba": ".223",
+    "estWoba": ".255",
+    "wobaDiff": "-0.032"
+  },
+  {
+    "name": "J.D. Davis",
+    "team": "Astros",
+    "position": "3B",
+    "woba": ".222",
+    "estWoba": ".309",
+    "wobaDiff": "-0.087"
+  },
+  {
+    "name": "Kaleb Cowart",
+    "team": "Angels",
+    "position": "3B",
+    "woba": ".222",
+    "estWoba": ".262",
+    "wobaDiff": "-0.040"
+  },
+  {
+    "name": "Carlos Tocci",
+    "team": "Rangers",
+    "position": "CF",
+    "woba": ".221",
+    "estWoba": ".198",
+    "wobaDiff": "0.023"
+  },
+  {
+    "name": "Andrew Romine",
+    "team": "Mariners",
+    "position": "2B",
+    "woba": ".221",
+    "estWoba": ".248",
+    "wobaDiff": "-0.027"
+  },
+  {
+    "name": "Bruce Maxwell",
+    "team": "Athletics",
+    "position": "C",
+    "woba": ".221",
+    "estWoba": ".285",
+    "wobaDiff": "-0.064"
+  },
+  {
+    "name": "Roberto Perez",
+    "team": "Indians",
+    "position": "C",
+    "woba": ".220",
+    "estWoba": ".256",
+    "wobaDiff": "-0.036"
+  },
+  {
+    "name": "Kyle Tucker",
+    "team": "Astros",
+    "position": "LF",
+    "woba": ".220",
+    "estWoba": ".353",
+    "wobaDiff": "-0.133"
+  },
+  {
+    "name": "JB Shuck",
+    "team": "Marlins",
+    "position": "RF",
+    "woba": ".220",
+    "estWoba": ".240",
+    "wobaDiff": "-0.020"
+  },
+  {
+    "name": "Taylor Motter",
+    "team": "Twins",
+    "position": "1B",
+    "woba": ".219",
+    "estWoba": ".308",
+    "wobaDiff": "-0.089"
+  },
+  {
+    "name": "Breyvic Valera",
+    "team": "Orioles",
+    "position": "2B",
+    "woba": ".217",
+    "estWoba": ".256",
+    "wobaDiff": "-0.039"
+  },
+  {
+    "name": "Phil Gosselin",
+    "team": "Reds",
+    "position": "3B",
+    "woba": ".217",
+    "estWoba": ".272",
+    "wobaDiff": "-0.055"
+  },
+  {
+    "name": "Francisco Pena",
+    "team": "Cardinals",
+    "position": "C",
+    "woba": ".215",
+    "estWoba": ".224",
+    "wobaDiff": "-0.009"
+  },
+  {
+    "name": "Ichiro Suzuki",
+    "team": "Mariners",
+    "position": "LF",
+    "woba": ".213",
+    "estWoba": ".224",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Pete Kozma",
+    "team": "Tigers",
+    "position": "3B",
+    "woba": ".213",
+    "estWoba": ".216",
+    "wobaDiff": "-0.003"
+  },
+  {
+    "name": "Ronny Rodriguez",
+    "team": "Tigers",
+    "position": "2B",
+    "woba": ".212",
+    "estWoba": ".240",
+    "wobaDiff": "-0.028"
+  },
+  {
+    "name": "Boog Powell",
+    "team": "Athletics",
+    "position": "CF",
+    "woba": ".211",
+    "estWoba": ".243",
+    "wobaDiff": "-0.032"
+  },
+  {
+    "name": "Jesus Sucre",
+    "team": "Rays",
+    "position": "C",
+    "woba": ".210",
+    "estWoba": ".262",
+    "wobaDiff": "-0.052"
+  },
+  {
+    "name": "Anthony DeSclafani",
+    "team": "Reds",
+    "position": "P",
+    "woba": ".208",
+    "estWoba": ".201",
+    "wobaDiff": "0.007"
+  },
+  {
+    "name": "Patrick Corbin",
+    "team": "Diamondbacks",
+    "position": "P",
+    "woba": ".207",
+    "estWoba": ".172",
+    "wobaDiff": "0.035"
+  },
+  {
+    "name": "Cliff Pennington",
+    "team": "Reds",
+    "position": "3B",
+    "woba": ".205",
+    "estWoba": ".234",
+    "wobaDiff": "-0.029"
+  },
+  {
+    "name": "Pat Valaika",
+    "team": "Rockies",
+    "position": "1B",
+    "woba": ".205",
+    "estWoba": ".244",
+    "wobaDiff": "-0.039"
+  },
+  {
+    "name": "Juan Centeno",
+    "team": "Rangers",
+    "position": "C",
+    "woba": ".197",
+    "estWoba": ".244",
+    "wobaDiff": "-0.047"
+  },
+  {
+    "name": "Jhoulys Chacin",
+    "team": "Brewers",
+    "position": "P",
+    "woba": ".197",
+    "estWoba": ".192",
+    "wobaDiff": "0.005"
+  },
+  {
+    "name": "Deven Marrero",
+    "team": "Diamondbacks",
+    "position": "3B",
+    "woba": ".196",
+    "estWoba": ".266",
+    "wobaDiff": "-0.070"
+  },
+  {
+    "name": "Colby Rasmus",
+    "team": "Orioles",
+    "position": "RF",
+    "woba": ".196",
+    "estWoba": ".243",
+    "wobaDiff": "-0.047"
+  },
+  {
+    "name": "Brandon Lowe",
+    "team": "Rays",
+    "position": "2B",
+    "woba": ".196",
+    "estWoba": ".215",
+    "wobaDiff": "-0.019"
+  },
+  {
+    "name": "Michael Hermosillo",
+    "team": "Angels",
+    "position": "RF",
+    "woba": ".194",
+    "estWoba": ".217",
+    "wobaDiff": "-0.023"
+  },
+  {
+    "name": "Eric Sogard",
+    "team": "Brewers",
+    "position": "SS",
+    "woba": ".194",
+    "estWoba": ".278",
+    "wobaDiff": "-0.084"
+  },
+  {
+    "name": "Carlos Perez",
+    "team": "Rangers",
+    "position": "C",
+    "woba": ".194",
+    "estWoba": ".225",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Tony Cruz",
+    "team": "Reds",
+    "position": "C",
+    "woba": ".194",
+    "estWoba": ".249",
+    "wobaDiff": "-0.055"
+  },
+  {
+    "name": "Moises Sierra",
+    "team": "Nationals",
+    "position": "LF",
+    "woba": ".191",
+    "estWoba": ".248",
+    "wobaDiff": "-0.057"
+  },
+  {
+    "name": "Shane Robinson",
+    "team": "Yankees",
+    "position": "RF",
+    "woba": ".191",
+    "estWoba": ".241",
+    "wobaDiff": "-0.050"
+  },
+  {
+    "name": "Ramon Torres",
+    "team": "Royals",
+    "position": "3B",
+    "woba": ".188",
+    "estWoba": ".233",
+    "wobaDiff": "-0.045"
+  },
+  {
+    "name": "Chase Headley",
+    "team": "Padres",
+    "position": "3B",
+    "woba": ".187",
+    "estWoba": ".241",
+    "wobaDiff": "-0.054"
+  },
+  {
+    "name": "Daniel Castro",
+    "team": "Rockies",
+    "position": "2B",
+    "woba": ".186",
+    "estWoba": ".178",
+    "wobaDiff": "0.008"
+  },
+  {
+    "name": "Vince Velasquez",
+    "team": "Phillies",
+    "position": "P",
+    "woba": ".181",
+    "estWoba": ".175",
+    "wobaDiff": "0.006"
+  },
+  {
+    "name": "Tomas Nido",
+    "team": "Mets",
+    "position": "C",
+    "woba": ".179",
+    "estWoba": ".238",
+    "wobaDiff": "-0.059"
+  },
+  {
+    "name": "Jake Arrieta",
+    "team": "Phillies",
+    "position": "P",
+    "woba": ".178",
+    "estWoba": ".179",
+    "wobaDiff": "-0.001"
+  },
+  {
+    "name": "Mike Marjama",
+    "team": "Mariners",
+    "position": "C",
+    "woba": ".177",
+    "estWoba": ".252",
+    "wobaDiff": "-0.075"
+  },
+  {
+    "name": "Zack Wheeler",
+    "team": "Mets",
+    "position": "P",
+    "woba": ".177",
+    "estWoba": ".156",
+    "wobaDiff": "0.021"
+  },
+  {
+    "name": "Paulo Orlando",
+    "team": "Royals",
+    "position": "CF",
+    "woba": ".176",
+    "estWoba": ".230",
+    "wobaDiff": "-0.054"
+  },
+  {
+    "name": "Chris Gimenez",
+    "team": "Cubs",
+    "position": "C",
+    "woba": ".175",
+    "estWoba": ".231",
+    "wobaDiff": "-0.056"
+  },
+  {
+    "name": "Byron Buxton",
+    "team": "Twins",
+    "position": "CF",
+    "woba": ".171",
+    "estWoba": ".192",
+    "wobaDiff": "-0.021"
+  },
+  {
+    "name": "Jabari Blash",
+    "team": "Angels",
+    "position": "RF",
+    "woba": ".169",
+    "estWoba": ".171",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Jake Smolinski",
+    "team": "Athletics",
+    "position": "CF",
+    "woba": ".168",
+    "estWoba": ".239",
+    "wobaDiff": "-0.071"
+  },
+  {
+    "name": "Miles Mikolas",
+    "team": "Cardinals",
+    "position": "P",
+    "woba": ".167",
+    "estWoba": ".188",
+    "wobaDiff": "-0.021"
+  },
+  {
+    "name": "Tyler Chatwood",
+    "team": "Cubs",
+    "position": "P",
+    "woba": ".162",
+    "estWoba": ".254",
+    "wobaDiff": "-0.092"
+  },
+  {
+    "name": "Trayce Thompson",
+    "team": "White Sox",
+    "position": "RF",
+    "woba": ".162",
+    "estWoba": ".214",
+    "wobaDiff": "-0.052"
+  },
+  {
+    "name": "Clayton Richard",
+    "team": "Padres",
+    "position": "P",
+    "woba": ".162",
+    "estWoba": ".211",
+    "wobaDiff": "-0.049"
+  },
+  {
+    "name": "Magneuris Sierra",
+    "team": "Marlins",
+    "position": "CF",
+    "woba": ".161",
+    "estWoba": ".157",
+    "wobaDiff": "0.004"
+  },
+  {
+    "name": "Mike Tauchman",
+    "team": "Rockies",
+    "position": "LF",
+    "woba": ".160",
+    "estWoba": ".206",
+    "wobaDiff": "-0.046"
+  },
+  {
+    "name": "Chad Wallach",
+    "team": "Marlins",
+    "position": "C",
+    "woba": ".160",
+    "estWoba": ".165",
+    "wobaDiff": "-0.005"
+  },
+  {
+    "name": "Stephen Strasburg",
+    "team": "Nationals",
+    "position": "P",
+    "woba": ".158",
+    "estWoba": ".266",
+    "wobaDiff": "-0.108"
+  },
+  {
+    "name": "Luke Weaver",
+    "team": "Cardinals",
+    "position": "P",
+    "woba": ".157",
+    "estWoba": ".184",
+    "wobaDiff": "-0.027"
+  },
+  {
+    "name": "Joey Lucchesi",
+    "team": "Padres",
+    "position": "P",
+    "woba": ".156",
+    "estWoba": ".143",
+    "wobaDiff": "0.013"
+  },
+  {
+    "name": "Mike Gerber",
+    "team": "Tigers",
+    "position": "LF",
+    "woba": ".155",
+    "estWoba": ".201",
+    "wobaDiff": "-0.046"
+  },
+  {
+    "name": "Nick Pivetta",
+    "team": "Phillies",
+    "position": "P",
+    "woba": ".151",
+    "estWoba": ".152",
+    "wobaDiff": "-0.001"
+  },
+  {
+    "name": "Tyson Ross",
+    "team": "Cardinals",
+    "position": "P",
+    "woba": ".146",
+    "estWoba": ".199",
+    "wobaDiff": "-0.053"
+  },
+  {
+    "name": "Noah Syndergaard",
+    "team": "Mets",
+    "position": "P",
+    "woba": ".143",
+    "estWoba": ".143",
+    "wobaDiff": "0.000"
+  },
+  {
+    "name": "Tyler Mahle",
+    "team": "Reds",
+    "position": "P",
+    "woba": ".142",
+    "estWoba": ".180",
+    "wobaDiff": "-0.038"
+  },
+  {
+    "name": "Jacob deGrom",
+    "team": "Mets",
+    "position": "P",
+    "woba": ".140",
+    "estWoba": ".157",
+    "wobaDiff": "-0.017"
+  },
+  {
+    "name": "Homer Bailey",
+    "team": "Reds",
+    "position": "P",
+    "woba": ".139",
+    "estWoba": ".092",
+    "wobaDiff": "0.047"
+  },
+  {
+    "name": "Jack Flaherty",
+    "team": "Cardinals",
+    "position": "P",
+    "woba": ".138",
+    "estWoba": ".164",
+    "wobaDiff": "-0.026"
+  },
+  {
+    "name": "Tyler Anderson",
+    "team": "Rockies",
+    "position": "P",
+    "woba": ".137",
+    "estWoba": ".151",
+    "wobaDiff": "-0.014"
+  },
+  {
+    "name": "Zach Eflin",
+    "team": "Phillies",
+    "position": "P",
+    "woba": ".134",
+    "estWoba": ".107",
+    "wobaDiff": "0.027"
+  },
+  {
+    "name": "Luis Castillo",
+    "team": "Reds",
+    "position": "P",
+    "woba": ".131",
+    "estWoba": ".142",
+    "wobaDiff": "-0.011"
+  },
+  {
+    "name": "Chad Kuhl",
+    "team": "Pirates",
+    "position": "P",
+    "woba": ".126",
+    "estWoba": ".091",
+    "wobaDiff": "0.035"
+  },
+  {
+    "name": "Wei-Yin Chen",
+    "team": "Marlins",
+    "position": "P",
+    "woba": ".125",
+    "estWoba": ".096",
+    "wobaDiff": "0.029"
+  },
+  {
+    "name": "Caleb Smith",
+    "team": "Marlins",
+    "position": "P",
+    "woba": ".120",
+    "estWoba": ".113",
+    "wobaDiff": "0.007"
+  },
+  {
+    "name": "Chad Bettis",
+    "team": "Rockies",
+    "position": "P",
+    "woba": ".118",
+    "estWoba": ".160",
+    "wobaDiff": "-0.042"
+  },
+  {
+    "name": "Eric Lauer",
+    "team": "Padres",
+    "position": "P",
+    "woba": ".117",
+    "estWoba": ".124",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "Carson Kelly",
+    "team": "Cardinals",
+    "position": "C",
+    "woba": ".117",
+    "estWoba": ".287",
+    "wobaDiff": "-0.170"
+  },
+  {
+    "name": "Brandon McCarthy",
+    "team": "Braves",
+    "position": "P",
+    "woba": ".116",
+    "estWoba": ".154",
+    "wobaDiff": "-0.038"
+  },
+  {
+    "name": "Andrew Susac",
+    "team": "Orioles",
+    "position": "C",
+    "woba": ".116",
+    "estWoba": ".171",
+    "wobaDiff": "-0.055"
+  },
+  {
+    "name": "Walker Buehler",
+    "team": "Dodgers",
+    "position": "P",
+    "woba": ".114",
+    "estWoba": ".105",
+    "wobaDiff": "0.009"
+  },
+  {
+    "name": "Jon Lester",
+    "team": "Cubs",
+    "position": "P",
+    "woba": ".113",
+    "estWoba": ".212",
+    "wobaDiff": "-0.099"
+  },
+  {
+    "name": "Madison Bumgarner",
+    "team": "Giants",
+    "position": "P",
+    "woba": ".111",
+    "estWoba": ".175",
+    "wobaDiff": "-0.064"
+  },
+  {
+    "name": "Andrew Suarez",
+    "team": "Giants",
+    "position": "P",
+    "woba": ".106",
+    "estWoba": ".121",
+    "wobaDiff": "-0.015"
+  },
+  {
+    "name": "Chris Stratton",
+    "team": "Giants",
+    "position": "P",
+    "woba": ".101",
+    "estWoba": ".135",
+    "wobaDiff": "-0.034"
+  },
+  {
+    "name": "Kyle Freeland",
+    "team": "Rockies",
+    "position": "P",
+    "woba": ".101",
+    "estWoba": ".101",
+    "wobaDiff": "0.000"
+  },
+  {
+    "name": "Steven Matz",
+    "team": "Mets",
+    "position": "P",
+    "woba": ".100",
+    "estWoba": ".209",
+    "wobaDiff": "-0.109"
+  },
+  {
+    "name": "Zack Godley",
+    "team": "Diamondbacks",
+    "position": "P",
+    "woba": ".100",
+    "estWoba": ".135",
+    "wobaDiff": "-0.035"
+  },
+  {
+    "name": "Mike Montgomery",
+    "team": "Cubs",
+    "position": "P",
+    "woba": ".098",
+    "estWoba": ".123",
+    "wobaDiff": "-0.025"
+  },
+  {
+    "name": "Jon Gray",
+    "team": "Rockies",
+    "position": "P",
+    "woba": ".095",
+    "estWoba": ".102",
+    "wobaDiff": "-0.007"
+  },
+  {
+    "name": "Trevor Richards",
+    "team": "Marlins",
+    "position": "P",
+    "woba": ".094",
+    "estWoba": ".096",
+    "wobaDiff": "-0.002"
+  },
+  {
+    "name": "Michael Wacha",
+    "team": "Cardinals",
+    "position": "P",
+    "woba": ".094",
+    "estWoba": ".073",
+    "wobaDiff": "0.021"
+  },
+  {
+    "name": "Matt Harvey",
+    "team": "Reds",
+    "position": "P",
+    "woba": ".093",
+    "estWoba": ".194",
+    "wobaDiff": "-0.101"
+  },
+  {
+    "name": "Chase Anderson",
+    "team": "Brewers",
+    "position": "P",
+    "woba": ".093",
+    "estWoba": ".119",
+    "wobaDiff": "-0.026"
+  },
+  {
+    "name": "John Gant",
+    "team": "Cardinals",
+    "position": "P",
+    "woba": ".092",
+    "estWoba": ".165",
+    "wobaDiff": "-0.073"
+  },
+  {
+    "name": "Jameson Taillon",
+    "team": "Pirates",
+    "position": "P",
+    "woba": ".084",
+    "estWoba": ".140",
+    "wobaDiff": "-0.056"
+  },
+  {
+    "name": "Kenta Maeda",
+    "team": "Dodgers",
+    "position": "P",
+    "woba": ".083",
+    "estWoba": ".132",
+    "wobaDiff": "-0.049"
+  },
+  {
+    "name": "Aaron Nola",
+    "team": "Phillies",
+    "position": "P",
+    "woba": ".079",
+    "estWoba": ".108",
+    "wobaDiff": "-0.029"
+  },
+  {
+    "name": "Junior Guerra",
+    "team": "Brewers",
+    "position": "P",
+    "woba": ".076",
+    "estWoba": ".088",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Gio Gonzalez",
+    "team": "Nationals",
+    "position": "P",
+    "woba": ".075",
+    "estWoba": ".108",
+    "wobaDiff": "-0.033"
+  },
+  {
+    "name": "Kyle Hendricks",
+    "team": "Cubs",
+    "position": "P",
+    "woba": ".075",
+    "estWoba": ".092",
+    "wobaDiff": "-0.017"
+  },
+  {
+    "name": "Sean Newcomb",
+    "team": "Braves",
+    "position": "P",
+    "woba": ".074",
+    "estWoba": ".059",
+    "wobaDiff": "0.015"
+  },
+  {
+    "name": "Ty Blach",
+    "team": "Giants",
+    "position": "P",
+    "woba": ".073",
+    "estWoba": ".114",
+    "wobaDiff": "-0.041"
+  },
+  {
+    "name": "Rich Hill",
+    "team": "Dodgers",
+    "position": "P",
+    "woba": ".073",
+    "estWoba": ".104",
+    "wobaDiff": "-0.031"
+  },
+  {
+    "name": "Jeremy Hellickson",
+    "team": "Nationals",
+    "position": "P",
+    "woba": ".071",
+    "estWoba": ".092",
+    "wobaDiff": "-0.021"
+  },
+  {
+    "name": "Robbie Ray",
+    "team": "Diamondbacks",
+    "position": "P",
+    "woba": ".071",
+    "estWoba": ".077",
+    "wobaDiff": "-0.006"
+  },
+  {
+    "name": "Trevor Williams",
+    "team": "Pirates",
+    "position": "P",
+    "woba": ".070",
+    "estWoba": ".165",
+    "wobaDiff": "-0.095"
+  },
+  {
+    "name": "Mike Foltynewicz",
+    "team": "Braves",
+    "position": "P",
+    "woba": ".068",
+    "estWoba": ".062",
+    "wobaDiff": "0.006"
+  },
+  {
+    "name": "Derek Holland",
+    "team": "Giants",
+    "position": "P",
+    "woba": ".068",
+    "estWoba": ".064",
+    "wobaDiff": "0.004"
+  },
+  {
+    "name": "Sal Romano",
+    "team": "Reds",
+    "position": "P",
+    "woba": ".063",
+    "estWoba": ".105",
+    "wobaDiff": "-0.042"
+  },
+  {
+    "name": "Ross Stripling",
+    "team": "Dodgers",
+    "position": "P",
+    "woba": ".061",
+    "estWoba": ".094",
+    "wobaDiff": "-0.033"
+  },
+  {
+    "name": "Dereck Rodriguez",
+    "team": "Giants",
+    "position": "P",
+    "woba": ".059",
+    "estWoba": ".071",
+    "wobaDiff": "-0.012"
+  },
+  {
+    "name": "Jose Urena",
+    "team": "Marlins",
+    "position": "P",
+    "woba": ".055",
+    "estWoba": ".059",
+    "wobaDiff": "-0.004"
+  },
+  {
+    "name": "Jose Quintana",
+    "team": "Cubs",
+    "position": "P",
+    "woba": ".044",
+    "estWoba": ".099",
+    "wobaDiff": "-0.055"
+  },
+  {
+    "name": "Alex Wood",
+    "team": "Dodgers",
+    "position": "P",
+    "woba": ".043",
+    "estWoba": ".067",
+    "wobaDiff": "-0.024"
+  },
+  {
+    "name": "Clay Buchholz",
+    "team": "Diamondbacks",
+    "position": "P",
+    "woba": ".035",
+    "estWoba": ".144",
+    "wobaDiff": "-0.109"
+  },
+  {
+    "name": "Anibal Sanchez",
+    "team": "Braves",
+    "position": "P",
+    "woba": ".025",
+    "estWoba": ".094",
+    "wobaDiff": "-0.069"
+  },
+  {
+    "name": "Ivan Nova",
+    "team": "Pirates",
+    "position": "P",
+    "woba": ".019",
+    "estWoba": ".093",
+    "wobaDiff": "-0.074"
+  }
+]

@@ -1,122 +1,122 @@
 [
   {
-    "name": "Astros",
-    "multiplier": 0.7990313169889697
-  },
-  {
-    "name": "Cubs",
-    "multiplier": 0.8749573803755326
+    "name": "Red Sox",
+    "multiplier": 0.7714413192771981
   },
   {
     "name": "Yankees",
-    "multiplier": 0.7609846990709958
+    "multiplier": 0.8220545117640683
   },
   {
-    "name": "Red Sox",
-    "multiplier": 0.8109968793812449
-  },
-  {
-    "name": "Angels",
-    "multiplier": 0.9348930596060524
-  },
-  {
-    "name": "Braves",
-    "multiplier": 0.8775653412554444
-  },
-  {
-    "name": "Dodgers",
-    "multiplier": 0.8844781857732791
+    "name": "Cubs",
+    "multiplier": 0.9325750509150638
   },
   {
     "name": "Indians",
-    "multiplier": 0.8884076813961841
-  },
-  {
-    "name": "Mariners",
-    "multiplier": 0.9398796757988571
-  },
-  {
-    "name": "Brewers",
-    "multiplier": 0.9672346354992871
-  },
-  {
-    "name": "Pirates",
-    "multiplier": 0.9345172461606465
-  },
-  {
-    "name": "Giants",
-    "multiplier": 1.0400729938032978
-  },
-  {
-    "name": "Diamondbacks",
-    "multiplier": 0.976603849399022
+    "multiplier": 0.8412181533203452
   },
   {
     "name": "Athletics",
-    "multiplier": 1.000579344500609
+    "multiplier": 0.9171413506105015
+  },
+  {
+    "name": "Dodgers",
+    "multiplier": 0.9400632906307166
+  },
+  {
+    "name": "Braves",
+    "multiplier": 0.9192326326723786
+  },
+  {
+    "name": "Angels",
+    "multiplier": 0.955408175518121
+  },
+  {
+    "name": "Astros",
+    "multiplier": 0.8692031672420847
+  },
+  {
+    "name": "Brewers",
+    "multiplier": 0.9953394729729773
   },
   {
     "name": "Cardinals",
-    "multiplier": 1.0369354885151452
-  },
-  {
-    "name": "Reds",
-    "multiplier": 1.0655805395591187
+    "multiplier": 0.9766035075895025
   },
   {
     "name": "Nationals",
-    "multiplier": 1.0248194274484508
+    "multiplier": 0.9478664159365897
   },
   {
-    "name": "Tigers",
-    "multiplier": 1.0615328411005363
+    "name": "Reds",
+    "multiplier": 0.9843329339595112
   },
   {
-    "name": "Rays",
-    "multiplier": 1.0889938648022102
-  },
-  {
-    "name": "Twins",
-    "multiplier": 1.0420761936906036
-  },
-  {
-    "name": "Phillies",
-    "multiplier": 1.0491983874906676
-  },
-  {
-    "name": "Blue Jays",
-    "multiplier": 0.9649826968529375
-  },
-  {
-    "name": "Mets",
-    "multiplier": 1.2367994960649107
+    "name": "Diamondbacks",
+    "multiplier": 0.9870666356585627
   },
   {
     "name": "Rangers",
-    "multiplier": 1.0563472128124822
+    "multiplier": 0.926359717252473
   },
   {
-    "name": "White Sox",
-    "multiplier": 1.144062094986039
+    "name": "Rays",
+    "multiplier": 1.079043526213153
   },
   {
-    "name": "Royals",
-    "multiplier": 1.2240683463687287
+    "name": "Pirates",
+    "multiplier": 1.0134651213879564
   },
   {
-    "name": "Padres",
-    "multiplier": 1.1401441946426978
+    "name": "Mariners",
+    "multiplier": 1.0586642564669468
   },
   {
-    "name": "Marlins",
-    "multiplier": 1.3575135256999278
+    "name": "Phillies",
+    "multiplier": 1.047225374664673
+  },
+  {
+    "name": "Mets",
+    "multiplier": 1.0852948647292433
+  },
+  {
+    "name": "Twins",
+    "multiplier": 0.9967866873995328
+  },
+  {
+    "name": "Blue Jays",
+    "multiplier": 0.9679684548342375
+  },
+  {
+    "name": "Giants",
+    "multiplier": 1.1939317700885312
   },
   {
     "name": "Rockies",
-    "multiplier": 0.9602826272948155
+    "multiplier": 0.9224511454009168
+  },
+  {
+    "name": "White Sox",
+    "multiplier": 1.079635629689072
+  },
+  {
+    "name": "Marlins",
+    "multiplier": 1.2684969545731015
+  },
+  {
+    "name": "Royals",
+    "multiplier": 1.278859997746338
+  },
+  {
+    "name": "Padres",
+    "multiplier": 1.2238069930674582
+  },
+  {
+    "name": "Tigers",
+    "multiplier": 1.2079690515390382
   },
   {
     "name": "Orioles",
-    "multiplier": 1.354314889114708
+    "multiplier": 1.1915863392486172
   }
 ]

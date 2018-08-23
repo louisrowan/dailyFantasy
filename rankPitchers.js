@@ -50,6 +50,8 @@ exports.rankRaw = games => {
 
     sortedPitchers.forEach(s => {
 
+        s.xFIP = s.xFIP || 'N/A';
+
         console.log(
             s.name.padEnd(20, ' '),
             s.xFIP.padEnd(10, ' '),
